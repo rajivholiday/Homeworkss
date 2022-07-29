@@ -8,9 +8,9 @@ public class Family {
     private Human[] children = new Human[0];
     private Pet pet;
 
-}
-public void addChild(Human child) {
-    this.children = Arrays.copyOf(this.children, this.children.length + 1);
 
+    public void addChild(Human child) {
+        this.children = Arrays.copyOf(this.children, this.children.length + 1);
+    }
 
 }
