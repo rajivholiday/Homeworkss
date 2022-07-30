@@ -48,7 +48,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DcFormat">
+  <component name="RunManager" selected="Application.InchToMeter">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.InchToMeter" />
+        <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="Application.ArrayAverage" />
       </list>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659186495310</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="inital commit">
+      <created>1659187757288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659187757288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
