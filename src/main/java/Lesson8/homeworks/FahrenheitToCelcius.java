@@ -1,3 +1,5 @@
+package Lesson8.homeworks;
+
 import java.util.Scanner;
 
 public class FahrenheitToCelcius {
