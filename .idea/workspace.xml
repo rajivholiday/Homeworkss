@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="inital commit">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="printf method print etmir">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson8/MinutToYear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InchToMeter">
+  <component name="RunManager" selected="Application.MinutToYear">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -95,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinutToYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.MinutToYear" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinutToYear" />
         <item itemvalue="Application.InchToMeter" />
         <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.ArrAverage" />
@@ -169,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659187757288</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="printf method print etmir">
+      <created>1659188278696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659188278696</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="inital commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
+    <MESSAGE value="printf method print etmir" />
+    <option name="LAST_COMMIT_MESSAGE" value="printf method print etmir" />
   </component>
 </project>
