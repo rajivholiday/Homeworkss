@@ -1,4 +1,4 @@
-package Lesson8;
+package lesson9;
 
 public class ArrAverage {
     public static double average(int[] arr) {
