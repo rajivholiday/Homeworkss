@@ -1,9 +1,8 @@
 package Lesson8;
 
-import javax.security.sasl.SaslClient;
 import java.util.Scanner;
 
-public class NumberOfDigits {
+public class SumOfDigits {
     public static int getSum(int number) {
         int sum = 0;
         while (number != 0) {
