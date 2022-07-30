@@ -1,5 +1,7 @@
-public class ArrayAverage {
-    public static double average ( int[] arr){
+package Lesson8;
+
+public class ArrAverage {
+    public static double average(int[] arr) {
         int sum = 0;
         double avg;
         for (int i = 0; i < arr.length; i++) {
@@ -10,10 +12,11 @@ public class ArrayAverage {
     }
 
     public static void main(String[] args) {
-        ArrayAverage obj = new ArrayAverage();
-        int [] arr = {2,4,6,8};
-        average(arr);
+        ArrAverage obj = new ArrAverage();
+        int[] arr = {2, 4, 6, 8};
+        System.out.println(average(arr));
 
 
     }
 }
+
