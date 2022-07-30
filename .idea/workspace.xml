@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="inital commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/homeworks/FahrenheitToCelcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +48,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InchToMeter">
+  <component name="RunManager" selected="Application.DcFormat">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -70,6 +69,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DcFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.DcFormat" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InchToMeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson8.InchToMeter" />
       <module name="Homeworkss" />
@@ -85,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.InchToMeter" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="Application.ArrayAverage" />
@@ -142,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659185730518</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="inital commit">
+      <created>1659186495310</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659186495310</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
