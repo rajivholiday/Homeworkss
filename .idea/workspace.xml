@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/ArrAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/ArrAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/MinutToYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/MinutToYear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrAverage">
+  <component name="RunManager" selected="Application.MinutToYear">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -116,10 +116,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinutToYear" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.FahrenheitToCelcius" />
-        <item itemvalue="Application.MinutToYear" />
         <item itemvalue="Application.InchToMeter" />
       </list>
     </recent_temporary>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659350051483</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="initial commit">
+      <created>1659360632841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659360632841</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
