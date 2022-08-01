@@ -9,9 +9,10 @@ public class InchToMeter {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input a value for inch:");
         double inch = scanner.nextDouble();
-        double meter = inch * 0.254;
+        double meter = inch * 0.0254;
         DecimalFormat df = new DecimalFormat("0.0#");
-        System.out.printf("%f inch is %d meters", df.format(inch), df.format(meter));
+
+        System.out.println(df.format(inch) + " inch is " + df.format(meter) + " meters");
 
     }
 }
