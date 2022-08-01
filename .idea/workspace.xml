@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="class name has changed">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="zeros from the double removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/DcFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/DcFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/InchToMeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/MinutToYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/MinutToYear.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InchToMeter">
+  <component name="RunManager" selected="Application.FahrenheitToCelcius">
     <configuration name="DcFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson8.DcFormat" />
       <module name="Homeworkss" />
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.DigitCounter" />
+    <configuration name="FahrenheitToCelcius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.FahrenheitToCelcius" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.SumOfDigits" />
+    <configuration name="MinutToYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.MinutToYear" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FahrenheitToCelcius" />
+        <item itemvalue="Application.MinutToYear" />
         <item itemvalue="Application.InchToMeter" />
         <item itemvalue="Application.DcFormat" />
         <item itemvalue="Application.Gfg" />
-        <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.DigitCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659192503171</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="zeros from the double removed">
+      <created>1659348622293</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659348622293</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +245,7 @@
     <MESSAGE value="printf method print etmir" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="class name has changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="class name has changed" />
+    <MESSAGE value="zeros from the double removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="zeros from the double removed" />
   </component>
 </project>
