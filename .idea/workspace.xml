@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/SumOfDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SumOfDigits">
+  <component name="RunManager" selected="Application.DigitCounter">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FahrenheitToCelcius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.FahrenheitToCelcius" />
+    <configuration name="DigitCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.DigitCounter" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DigitCounter" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.MinutToYear" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="Application.DcFormat" />
-        <item itemvalue="Application.FahrenheitToCelcius" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659366905946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="initial commit">
+      <created>1659370039734</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659370039734</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
