@@ -7,12 +7,11 @@ public class ArrAverage {
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
-        avg = sum / arr.length * 1.0;
+        avg = (double) sum / arr.length;
         return avg;
     }
 
     public static void main(String[] args) {
-        ArrAverage obj = new ArrAverage();
         int[] arr = {2, 4, 6, 8};
         System.out.println(average(arr));
 
