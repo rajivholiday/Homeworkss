@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson9/IndexOfArrayElementTest.java" afterDir="false" />
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="for loop changed to enhanced loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson8/SumOfDigitsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrAverage">
+  <component name="RunManager" selected="Application.InchToMeter">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -74,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElement" />
+    <configuration name="FahrenheitToCelcius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.FahrenheitToCelcius" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson9.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,17 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfArrayElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InchToMeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson8.InchToMeter" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson9.*" />
+          <option name="PATTERN" value="Lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson9" />
-      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElementTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InchToMeter" />
+        <item itemvalue="Application.FahrenheitToCelcius" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="JUnit.IndexOfArrayElementTest.indexElement" />
         <item itemvalue="JUnit.IndexOfArrayElementTest.elementIndex" />
-        <item itemvalue="JUnit.IndexOfArrayElementTest" />
-        <item itemvalue="Application.IndexOfArrayElement" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659706827088</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="for loop changed to enhanced loop">
+      <created>1659718415351</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659718415351</updated>
+    </task>
+    <task id="LOCAL-00023" summary="for loop changed to enhanced loop">
+      <created>1659718437796</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659718437796</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +333,7 @@
     <MESSAGE value="zeros from the double removed" />
     <MESSAGE value="fahrenheit de vergulden sonra bir 0, selside ise iki sifir qalir?" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="for loop changed to enhanced loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop changed to enhanced loop" />
   </component>
 </project>
