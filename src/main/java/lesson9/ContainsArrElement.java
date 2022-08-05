@@ -3,6 +3,7 @@ package lesson9;
 public class ContainsArrElement {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
+        System.out.println(containsElement(arr, 4));
         System.out.println(containsElement(arr, 10));
     }
 
