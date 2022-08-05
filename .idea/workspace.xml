@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson8/SumOfDigitsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
       <recent name="Lesson8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lesson9" />
       <recent name="Lesson8" />
       <recent name="Lesson8.homeworks" />
     </key>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659372687394</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="initial commit">
+      <created>1659543831039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659543831039</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
