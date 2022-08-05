@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson9/IndexOfArrayElementTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson8/SumOfDigitsTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,6 +51,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson9" />
       <recent name="Lesson8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -57,13 +60,13 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DcFormat">
-    <configuration name="DcFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.DcFormat" />
+  <component name="RunManager" selected="Application.ArrAverage">
+    <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
+          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.DigitCounter" />
+    <configuration name="IndexOfArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElement" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
+          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,37 +87,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson8.Main" />
+    <configuration name="IndexOfArrayElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
+          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson9" />
+      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElementTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TimeTraining" />
+    <configuration name="IndexOfArrayElementTest.elementIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson9" />
+      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElementTest" />
+      <option name="METHOD_NAME" value="elementIndex" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigitsTest.sum1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexOfArrayElementTest.indexElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson8.*" />
+          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson8" />
-      <option name="MAIN_CLASS_NAME" value="Lesson8.SumOfDigitsTest" />
-      <option name="METHOD_NAME" value="sum1" />
+      <option name="PACKAGE_NAME" value="lesson9" />
+      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElementTest" />
+      <option name="METHOD_NAME" value="indexElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DcFormat" />
-        <item itemvalue="Application.TimeTraining" />
-        <item itemvalue="JUnit.SumOfDigitsTest.sum1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DigitCounter" />
+        <item itemvalue="Application.ArrAverage" />
+        <item itemvalue="JUnit.IndexOfArrayElementTest.indexElement" />
+        <item itemvalue="JUnit.IndexOfArrayElementTest.elementIndex" />
+        <item itemvalue="JUnit.IndexOfArrayElementTest" />
+        <item itemvalue="Application.IndexOfArrayElement" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +286,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659543831039</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="initial commit">
+      <created>1659706672807</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659706672808</updated>
+    </task>
+    <task id="LOCAL-00021" summary="initial commit">
+      <created>1659706827088</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659706827088</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -4,8 +4,8 @@ public class ArrAverage {
     public static double average(int[] arr) {
         int sum = 0;
         double avg;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
+        for (int i : arr) {
+            sum += i;
         }
         avg = (double) sum / arr.length;
         return avg;
