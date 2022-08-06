@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="for loop changed to enhanced loop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson9/MakeArrayCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson8/FahrenheitToCelcius.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,7 +59,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InchToMeter">
+  <component name="RunManager" selected="Application.MakeArrayCopy">
     <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
       <module name="Homeworkss" />
@@ -99,7 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfArrayElementTest.elementIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MakeArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.MakeArrayCopy" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -107,10 +108,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson9" />
-      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElementTest" />
-      <option name="METHOD_NAME" value="elementIndex" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakeArrayCopy" />
         <item itemvalue="Application.InchToMeter" />
         <item itemvalue="Application.FahrenheitToCelcius" />
         <item itemvalue="Application.ArrAverage" />
         <item itemvalue="JUnit.IndexOfArrayElementTest.indexElement" />
-        <item itemvalue="JUnit.IndexOfArrayElementTest.elementIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659718437796</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="for loop changed to enhanced loop">
+      <created>1659720391539</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659720391539</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
