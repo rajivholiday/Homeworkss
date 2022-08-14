@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
       <recent name="Lesson8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="personprint" />
       <recent name="lesson9" />
       <recent name="Lesson8" />
       <recent name="Lesson8.homeworks" />
@@ -340,7 +341,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660463706530</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array">
+      <created>1660465067992</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660465067992</updated>
+    </task>
+    <task id="LOCAL-00030" summary="initial commit">
+      <created>1660474406189</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660474406189</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,8 +378,8 @@
     <MESSAGE value="fahrenheit de vergulden sonra bir 0, selside ise iki sifir qalir?" />
     <MESSAGE value="for loop changed to enhanced loop" />
     <MESSAGE value="return type String lə həll etdim. Yəqin return type int lə də həll etmək olardı." />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
