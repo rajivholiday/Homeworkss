@@ -8,10 +8,9 @@ public class ContainsArrElement {
     }
 
     public static boolean containsElement(int[] arr, int target) {
-        boolean contains = true;
         for (int i = 0; i < arr.length; i++) {
             if (target == arr[i]) {
-                return contains;
+                return true;
             }
         }
         return false;
