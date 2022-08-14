@@ -1,15 +1,36 @@
 package HappyFamily2;
 
 
+import java.util.Arrays;
+
 public class Human {
     private String name;
     private String surname;
     private int birthYear;
     private int iq;
-    private Human mother;
-    private Human father;
-    private Pet pet = new Pet();
     private String[][] schedule;
+    Family family;
+
+    public Human() {
+
+    }
+
+
+    public Human(String name, String surname, int birthYear, int iq, String[][] schedule) {
+        this.name = name;
+        this.surname = surname;
+        this.birthYear = birthYear;
+        this.iq = iq;
+        this.schedule = schedule;
+    }
+
+    public Human(String name, String surname, int birthYear) {
+
+        this.name = name;
+        this.surname = surname;
+        this.birthYear = birthYear;
+    }
+
 
     public String getName() {
         return name;
@@ -43,29 +64,6 @@ public class Human {
         this.iq = iq;
     }
 
-    public Human getMother() {
-        return mother;
-    }
-
-    public void setMother(Human mother) {
-        this.mother = mother;
-    }
-
-    public Human getFather() {
-        return father;
-    }
-
-    public void setFather(Human father) {
-        this.father = father;
-    }
-
-    public Pet getPet() {
-        return pet;
-    }
-
-    public void setPet(Pet pet) {
-        this.pet = pet;
-    }
 
     public String[][] getSchedule() {
         return schedule;
@@ -75,58 +73,10 @@ public class Human {
         this.schedule = schedule;
     }
 
-    public Human(String name, String surname, int birthYear) {
-
-        this.name = name;
-        this.surname = surname;
-        this.birthYear = birthYear;
-    }
-
-    public Human(String name, String surname, int birthYear, Human father, Human mother) {
-
-        this.name = name;
-        this.surname = surname;
-        this.birthYear = birthYear;
-        this.father = father;
-        this.mother = mother;
-
-    }
-
-    public Human(String name, String surname, int birthYear, int iq, Human father, Human mother, Pet pet, String[][] schedule) {
-        this.name = name;
-        this.surname = surname;
-        this.birthYear = birthYear;
-        this.iq = iq;
-        this.mother = mother;
-        this.father = father;
-        this.pet = pet;
-        this.schedule = schedule;
-    }
-
-    public Human() {
-
-    }
-
-
-    public void greetPet() {
-
-        System.out.printf("Hello, %s", pet.getNickname());
-
-    }
-
-
-    public void describePet() {
-        if (pet.getTrickLevel() > 50) {
-            System.out.printf("I have a %s, he is %d years old, he is very sly", pet.getSpecies(), pet.getAge());
-        } else {
-            System.out.printf("I have a %s, he is %d years old, he is almost not sly", pet.getSpecies(), pet.getAge());
-        }
-
-    }
 
     public String toString() {
         return String.format("Human" +
-                "{name = %s, surname = %s, year = %d, iq = %d, mother = %s, father = %s," +
-                " pet = %s }", name, surname, birthYear, iq, mother, father, pet.toString());
+                        "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
+                Arrays.deepToString(schedule));
     }
 }

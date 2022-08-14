@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
-        String[][] schedule = {
+        String[][] schedule_F = {
                 {"Monday", "Swimming"},
                 {"Tuesday", "Camping"},
                 {"Wednesday", "Billiard"},
@@ -15,32 +15,33 @@ public class Main {
                 {"Saturday", "Concert"},
                 {"Sunday", "Walking"}
         };
+        String[][] schedule_M = {
+                {"Monday", "Cooking"},
+                {"Tuesday", "Cleaning"},
+                {"Wednesday", "Sewing"},
+                {"Thursday", "Yoga"},
+                {"Friday", "Movie"},
+                {"Saturday", "Shopping"},
+                {"Sunday", "Walking"}
+        };
+
+        Human[] children = new Human[0];
+
+        Human mother = new Human("Jane", "Gomes", 1980);
+        Human father = new Human("Mario", "Gomes", 1978);
+
+        Human mother_b = new Human("Maria", "Balotelli", 1990, 100, schedule_M);
+        Human father_b = new Human("Francesko", "Balotelli", 1988, 105, schedule_F);
+        Human[] children_b = new Human[2];
+        children_b[0] = new Human("Max", "Balotelli", 2000);
+        children_b[1] = new Human("Martina", "Balotelli", 2002);
 
 
+        Family gomes = new Family(mother, father, children);
+        System.out.println(gomes.toString());
 
-        Pet dog = new Pet("Dog", "Rock", 5, 75, habits);
-        Pet cat = new Pet("Cat", "Graf");
-        Pet parrot = new Pet();
-
-        Human juniorSon = new Human();
-        Human mother = new Human("Jane", "Karleone", 1977);
-        Human father = new Human("Vito", "Karleone", 1976);
-        Human son = new Human("Michael", "Karleone", 1998, 90, father, mother, dog, schedule);
-        Human daughter = new Human("Anna", "Karleone", 2000, father, mother);
-
-        System.out.println(dog.toString());
-        System.out.println(daughter.toString() + "\n");
-        System.out.println(son.toString());
-        System.out.println(cat.toString());
-        System.out.println(parrot.toString());
-        System.out.println(juniorSon.toString());
-
-
-        dog.eat();
-        dog.respond();
-        dog.foul();
-        son.greetPet();
-        son.describePet();
+        Family balotelli = new Family(mother_b, father_b, children_b);
+        System.out.println(balotelli.toString());
 
 
     }
