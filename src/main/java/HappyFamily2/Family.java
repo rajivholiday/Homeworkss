@@ -50,10 +50,12 @@ public class Family {
 
     public void addChild(Human child) {
         this.children = Arrays.copyOf(this.children, this.children.length + 1);
+        children[children.length - 1] = child;
     }
 
-    public void deleteChild(Human child) {
+    public void deleteChild(int index) {
         this.children = Arrays.copyOf(this.children, this.children.length - 1);
+
     }
 
     @Override
