@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="boolean contain was removed">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Happy family2 project completed">
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/DayOfWeek.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,16 +43,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/Homeworkss/src/main/java/happyfamily3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/training"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java\happyfamily3" />
@@ -74,22 +72,9 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration name="ContainsArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ContainsArrElement" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexOfArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9.IndexOfArrayElement" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -140,13 +125,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_2.RemoveElement" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ContainsArrElement" />
         <item itemvalue="Application.RemoveArrayElement" />
         <item itemvalue="Application.MakeArrayCopy" />
-        <item itemvalue="Application.IndexOfArrayElement" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660489483711</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Happy family2 project completed">
+      <created>1660725805151</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660725805151</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,6 +414,7 @@
     <MESSAGE value="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="boolean contain was removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="boolean contain was removed" />
+    <MESSAGE value="Happy family2 project completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy family2 project completed" />
   </component>
 </project>
