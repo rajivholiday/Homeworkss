@@ -87,7 +87,8 @@ public class Pet {
     @Override
     public String toString() {
 
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species, this.nickname,
+                this.age, this.trickLevel, Arrays.toString(habits));
 
     }
 }

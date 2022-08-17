@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="boolean contain was removed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/DayOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +27,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -34,17 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/lessons"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/Homeworkss/src/main/java/happyfamily3&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java\happyfamily3" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -53,6 +67,7 @@
       <recent name="Lesson8" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="happyfamily3" />
       <recent name="personprint" />
       <recent name="lesson9" />
       <recent name="Lesson8" />
@@ -128,10 +143,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ContainsArrElement" />
         <item itemvalue="Application.RemoveArrayElement" />
         <item itemvalue="Application.MakeArrayCopy" />
         <item itemvalue="Application.IndexOfArrayElement" />
-        <item itemvalue="Application.ContainsArrElement" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660474674905</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="boolean contain was removed">
+      <created>1660489483711</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660489483711</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,6 +408,7 @@
     <MESSAGE value="return type String lə həll etdim. Yəqin return type int lə də həll etmək olardı." />
     <MESSAGE value="Create Family class, add new constructors, methods, getters and setters&#10;removed duplicate codes from Human class ,modified toString method&#10;Create objects of new Classes for testing and 2 dimensional array" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="boolean contain was removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="boolean contain was removed" />
   </component>
 </project>
