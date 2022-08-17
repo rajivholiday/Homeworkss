@@ -11,8 +11,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/SearchElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchElement">
+  <component name="RunManager" selected="Application.Sorting">
     <configuration name="ContainsArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson9.ContainsArrElement" />
       <module name="Homeworkss" />
@@ -92,19 +91,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HappyFamily2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveArrayElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9.RemoveArrayElement" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +124,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_2.Sorting" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.SearchElement" />
         <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ContainsArrElement" />
-        <item itemvalue="Application.RemoveArrayElement" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660752534027</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="initial commit">
+      <created>1660754529072</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660754529072</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
