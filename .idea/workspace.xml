@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="reversing ArrayList elements using Collections.reverse() method">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Metod işləmir .Metod yaratmaq mənasız göründü&#10;addAll() dan istifadə etdim">
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/DayOfWeek.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
@@ -12,9 +12,10 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ReverseWithCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sdsaalfA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/ReverseWithCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ReverseWithCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,16 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/training&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/lessons"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java\happyfamily3" />
@@ -75,8 +76,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ReverseWithCollections">
-    <configuration name="ArrayListCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2_2.ArrayListCopy" />
+    <configuration name="MergeArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_2.MergeArrays" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_2.RemoveElement" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -114,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2_2.Sorting" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson2_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sdsaalfA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sdsaalfA" />
       <module name="Homeworkss" />
@@ -137,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ReverseWithCollections" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.MergeArrays" />
         <item itemvalue="Application.ReverseElements" />
         <item itemvalue="Application.sdsaalfA" />
-        <item itemvalue="Application.ArrayListCopy" />
-        <item itemvalue="Application.Sorting" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +420,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660802591352</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="reversing ArrayList elements using Collections.reverse() method">
+      <created>1660804528348</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1660804528348</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Metod işləmir .Metod yaratmaq mənasız göründü&#10;addAll() dan istifadə etdim">
+      <created>1660813844776</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1660813844777</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -447,16 +462,7 @@
     <MESSAGE value="Happy family2 project completed" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="reversing ArrayList elements using Collections.reverse() method" />
-    <option name="LAST_COMMIT_MESSAGE" value="reversing ArrayList elements using Collections.reverse() method" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sdsaalfA.java</url>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Metod işləmir .Metod yaratmaq mənasız göründü&#10;addAll() dan istifadə etdim" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metod işləmir .Metod yaratmaq mənasız göründü&#10;addAll() dan istifadə etdim" />
   </component>
 </project>
