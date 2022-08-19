@@ -16,7 +16,7 @@ public class ReverseWithCollections {
         ArrayList<Integer> reverse_numbers = rev(numbers);
 
         System.out.printf("Elements of the array: %s \n", numbers.toString());
-        System.out.printf("Elements of the reverse array: %s \n", reverse_numbers.toString());
+        System.out.printf("Elements of the reverse array: %s", reverse_numbers.toString());
 
     }
 }
