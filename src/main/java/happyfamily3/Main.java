@@ -1,28 +1,32 @@
 package happyfamily3;
 
 
+import Lesson8.WeekDays;
+
 public class Main {
 
 
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
         String[][] schedule_F = {
-                {"Monday", "Swimming"},
-                {"Tuesday", "Camping"},
-                {"Wednesday", "Billiard"},
-                {"Thursday", "Football"},
-                {"Friday", "Movie"},
-                {"Saturday", "Concert"},
-                {"Sunday", "Walking"}
+                {DayOfWeek.MONDAY.name(), "Swimming"},
+                {DayOfWeek.TUESDAY.name(), "Camping"},
+                {DayOfWeek.WEDNESDAY.name(), "Billiard"},
+                {DayOfWeek.THURSDAY.name(), "Football"},
+                {DayOfWeek.FRIDAY.name(), "Movie"},
+                {DayOfWeek.SATURDAY.name(), "Concert"},
+                {DayOfWeek.SUNDAY.name(), "Walking"}
         };
+
+
         String[][] schedule_M = {
-                {"Monday", "Cooking"},
-                {"Tuesday", "Cleaning"},
-                {"Wednesday", "Sewing"},
-                {"Thursday", "Yoga"},
-                {"Friday", "Movie"},
-                {"Saturday", "Shopping"},
-                {"Sunday", "Walking"}
+                {DayOfWeek.MONDAY.name(), "Cooking"},
+                {DayOfWeek.TUESDAY.name(), "Cleaning"},
+                {DayOfWeek.WEDNESDAY.name(), "Sewing"},
+                {DayOfWeek.THURSDAY.name(), "Yoga"},
+                {DayOfWeek.FRIDAY.name(), "Movie"},
+                {DayOfWeek.SATURDAY.name(), "Shopping"},
+                {DayOfWeek.SUNDAY.name(), "Walking"}
         };
 
         Human[] children = new Human[0];
@@ -37,14 +41,11 @@ public class Main {
         children_b[1] = new Human("Martina", "Balotelli", 2002);
 
         for (int i = 0; i < 1000000; i++) {
-           Human new_Human = new Human();
+            Human new_Human = new Human();
 
         }
 
-
-
-
-
-
     }
+
+
 }
