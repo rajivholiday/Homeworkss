@@ -3,18 +3,18 @@ package happyfamily3;
 import java.util.Arrays;
 
 public class Pet {
-    private String species;
+    private Species familyPets;
     private String nickname;
     private int age;
     private int trickLevel;
     private String[] habits;
 
-    public String getSpecies() {
-        return species;
+    public Species getFamilyPets() {
+        return familyPets;
     }
 
-    public void setSpecies(String species) {
-        this.species = species;
+    public void setFamilyPets(Species familyPets) {
+        this.familyPets = familyPets;
     }
 
     public String getNickname() {
@@ -49,14 +49,14 @@ public class Pet {
         this.habits = habits;
     }
 
-    public Pet(String species, String nickname) {
+    public Pet(Species familyPets, String nickname) {
 
-        this.species = species;
+        this.familyPets = familyPets;
         this.nickname = nickname;
     }
 
-    public Pet(String species, String nickname, int age, int trickLevel, String[] habits) {
-        this.species = species;
+    public Pet(Species familyPets, String nickname, int age, int trickLevel, String[] habits) {
+        this.familyPets = familyPets;
         this.nickname = nickname;
         this.age = age;
         this.trickLevel = trickLevel;
@@ -87,7 +87,8 @@ public class Pet {
     @Override
     public String toString() {
 
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.familyPets,
+                this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
 
     }
 }

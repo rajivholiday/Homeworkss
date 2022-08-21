@@ -79,4 +79,10 @@ public class Human {
                         "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
                 Arrays.deepToString(schedule));
     }
+
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("Garbage collector is working");
+    }
 }

@@ -36,6 +36,11 @@ public class Main {
         children_b[0] = new Human("Max", "Balotelli", 2000);
         children_b[1] = new Human("Martina", "Balotelli", 2002);
 
+        for (int i = 0; i < 1000000; i++) {
+           Human new_Human = new Human();
+
+        }
+
 
 
 
