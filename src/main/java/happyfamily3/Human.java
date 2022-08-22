@@ -83,6 +83,6 @@ public class Human {
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
-        System.out.println("Garbage collector is working");
+        System.out.println("I got deleted");
     }
 }

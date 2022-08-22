@@ -31,19 +31,30 @@ public class Main {
 
         Human[] children = new Human[0];
 
+
         Human mother = new Human("Jane", "Gomes", 1980);
         Human father = new Human("Mario", "Gomes", 1978);
 
-        Human mother_b = new Human("Maria", "Balotelli", 1990, 100, schedule_M);
-        Human father_b = new Human("Francesko", "Balotelli", 1988, 105, schedule_F);
-        Human[] children_b = new Human[3];
-        children_b[0] = new Human("Max", "Balotelli", 2000);
-        children_b[1] = new Human("Martina", "Balotelli", 2002);
+        Human mother_b = new Human("Maria", "Romano", 1990, 100, schedule_M);
+        Human father_b = new Human("Francesko", "Romano", 1988, 105, schedule_F);
+        Human[] children_b = new Human[2];
+        children_b[0] = new Human("Max", "Romano", 2000);
+        children_b[1] = new Human("Martina", "Romano", 2002);
+        Human luka = new Human("Luka", "Romano", 2004);
 
-        for (int i = 0; i < 1000000; i++) {
-            Human new_Human = new Human();
+
+        Family romano = new Family(mother_b, father_b, children_b);
+        romano.addChild(luka);
+        System.out.println(romano.toString());
+        romano.deleteChild(2);
+        System.out.println(romano.toString());
+        System.out.println(romano.countFamily());
+
+        for (int i = 0; i < 1000000000; i++) {
+            Human human = new Human();
 
         }
+
 
     }
 

@@ -1,19 +1,18 @@
 package happyfamily3;
 
-import HappyFamily2.Human;
-import HappyFamily2.Pet;
+
 
 import java.util.Arrays;
 import java.util.Objects;
 
 public class Family {
-    private HappyFamily2.Human mother;
-    private HappyFamily2.Human father;
-    private HappyFamily2.Human[] children;
-    private HappyFamily2.Pet pet;
+    private Human mother;
+    private  Human father;
+    private Human[] children;
+    private Pet pet;
     private int count = 2;
 
-    public Family(HappyFamily2.Human mother, HappyFamily2.Human father, HappyFamily2.Human[] children) {
+    public Family(Human mother, Human father, Human[] children) {
         this.mother = mother;
         this.father = father;
         this.children = children;
@@ -21,31 +20,31 @@ public class Family {
 
     }
 
-    public HappyFamily2.Human getMother() {
+    public Human getMother() {
         return mother;
     }
 
-    public void setMother(HappyFamily2.Human mother) {
+    public void setMother(Human mother) {
         this.mother = mother;
     }
 
-    public HappyFamily2.Human getFather() {
+    public Human getFather() {
         return father;
     }
 
-    public void setFather(HappyFamily2.Human father) {
+    public void setFather(Human father) {
         this.father = father;
     }
 
-    public HappyFamily2.Human[] getChildren() {
+    public Human[] getChildren() {
         return children;
     }
 
-    public void setChildren(HappyFamily2.Human[] children) {
+    public void setChildren(Human[] children) {
         this.children = children;
     }
 
-    public HappyFamily2.Pet getPet() {
+    public Pet getPet() {
         return pet;
     }
 
@@ -53,7 +52,7 @@ public class Family {
         this.pet = pet;
     }
 
-    public void addChild(HappyFamily2.Human child) {
+    public void addChild(Human child) {
         this.children = Arrays.copyOf(this.children, this.children.length + 1);
         children[children.length - 1] = child;
 
