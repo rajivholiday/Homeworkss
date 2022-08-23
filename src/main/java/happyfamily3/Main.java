@@ -42,20 +42,18 @@ public class Main {
         children_b[1] = new Human("Martina", "Romano", 2002);
         Human luka = new Human("Luka", "Romano", 2004);
 
-
         Family romano = new Family(mother_b, father_b, children_b);
         romano.addChild(luka);
+        romano.deleteChild1(luka);
         System.out.println(romano.toString());
-        romano.deleteChild(2);
-        System.out.println(romano.toString());
-        System.out.println(romano.countFamily());
 
         for (int i = 0; i < 1000000000; i++) {
-            Human human = new Human();
+            Pet myPets = new Pet();
+        }
+        for (int i = 0; i < 1000000000; i++) {
+            Family romanoFamily = new Family();
 
         }
-
-
     }
 
 

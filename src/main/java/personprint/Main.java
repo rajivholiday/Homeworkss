@@ -1,6 +1,6 @@
 package personprint;
 
-import Lesson8.PersonPrinting;
+
 
 public class Main {
     public static void main(String[] args) {

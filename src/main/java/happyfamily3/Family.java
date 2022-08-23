@@ -96,6 +96,11 @@ public class Family {
 
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("Objects get deleting");
+    }
 
     public int countFamily() {
         return count + children.length;

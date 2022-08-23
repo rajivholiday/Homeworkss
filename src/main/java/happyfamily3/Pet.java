@@ -83,6 +83,11 @@ public class Pet {
         System.out.println("I need to cover it up");
     }
 
+    @Override
+    protected void finalize() throws Throwable {
+        super.finalize();
+        System.out.println("Freeing memory");
+    }
 
     @Override
     public String toString() {

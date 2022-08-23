@@ -19,7 +19,7 @@ class FamilyTest {
 
 
     @Test
-    void addChild() {
+    void addChildTest() {
         Human mother = new Human("Andrea", "Rossi", 1980);
         Human father = new Human("Martin", "Rossi", 1978);
         Human[] children = new Human[0];
@@ -38,7 +38,7 @@ class FamilyTest {
     }
 
     @Test
-    void deleteChild() {
+    void deleteChildTest() {
         Human mother = new Human("Andrea", "Rossi", 1980);
         Human father = new Human("Martin", "Rossi", 1978);
         Human[] children = new Human[0];
@@ -53,6 +53,23 @@ class FamilyTest {
                 "pet = null";
         assertEquals(result, rossi.toString());
     }
+    @Test
+    void deleteChildObjectTest(){
+        Human mother = new Human("Andrea", "Rossi", 1980);
+        Human father = new Human("Martin", "Rossi", 1978);
+        Human[] children = new Human[0];
+        Family rossi = new Family(mother, father, children);
+        Human roberto = new Human("Roberto", "Rossi", 2005);
+        rossi.addChild(roberto);
+        rossi.deleteChild1(roberto);
+        String result1 = "Family{ \n" +
+                "mother = Human{name = Andrea, surname = Rossi, year = 1980, iq = 0, schedule = null},\n" +
+                "father = Human{name = Martin, surname = Rossi, year = 1978, iq = 0, schedule = null},\n"
+                + "children = [],\n" +
+                "pet = null";
+        assertEquals(result1, rossi.toString());
+
+    }
 
     @Test
     void countFamily() {
@@ -64,7 +81,6 @@ class FamilyTest {
         rossi.addChild(roberto);
         int i = 2 + children.length;
         assertEquals(3, rossi.countFamily());
-
 
     }
 }

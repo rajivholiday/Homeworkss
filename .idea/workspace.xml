@@ -7,7 +7,9 @@
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="look at the deleteChild1 method,&#10;it gives out of bound exception">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" afterDir="false" />
@@ -165,13 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00003" summary="inital commit">
-      <created>1659079395858</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1659079395858</updated>
     </task>
     <task id="LOCAL-00004" summary="inital commit">
       <created>1659177811773</created>
@@ -509,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661264106335</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="look at the deleteChild1 method,&#10;it gives out of bound exception">
+      <created>1661264508333</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1661264508333</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
