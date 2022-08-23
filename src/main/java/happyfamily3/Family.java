@@ -74,7 +74,7 @@ public class Family {
         return Objects.hash(mother, father);
     }
 
-    public short deleteChild(int index) {
+    public void deleteChild(int index) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         for (int i = 0, j = 0; i < children.length; i++) {
             if (i != index) {
@@ -82,10 +82,10 @@ public class Family {
             }
         }
         this.children = new_arr;
-        return 0;
+
     }
 
-    public short deleteChild1(Human child) {
+    public void deleteChild1(Human child) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         for (int i = 0, j = 0; i < children.length; i++) {
             if (!new_arr[i].equals(child)) {
@@ -93,7 +93,7 @@ public class Family {
             }
         }
         this.children = new_arr;
-        return 0;
+
     }
 
 
