@@ -88,7 +88,7 @@ public class Family {
     public void deleteChild1(Human child) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         for (int i = 0, j = 0; i < children.length; i++) {
-            if (!new_arr[i].equals(child)) {
+            if (!new_arr[j].equals(child)) {
                 new_arr[j++] = children[i];
             }
         }
