@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
@@ -71,7 +71,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FamilyTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="happyfamily3.Main" />
       <module name="Homeworkss" />
@@ -100,38 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyTest.addChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily3" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
-      <option name="METHOD_NAME" value="addChild" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FamilyTest.countFamily" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily3" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
-      <option name="METHOD_NAME" value="countFamily" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FamilyTest.deleteChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
@@ -148,13 +116,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FamilyTest.deleteChild1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="happyfamily3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="happyfamily3" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
+      <option name="METHOD_NAME" value="deleteChild1Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyTest.deleteChildObjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="happyfamily3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="happyfamily3" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
+      <option name="METHOD_NAME" value="deleteChildObjectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FamilyTest.deleteChildObjectTest" />
+        <item itemvalue="JUnit.FamilyTest.deleteChild1Test" />
         <item itemvalue="JUnit.FamilyTest" />
         <item itemvalue="JUnit.FamilyTest.deleteChild" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FamilyTest.countFamily" />
-        <item itemvalue="JUnit.FamilyTest.addChild" />
       </list>
     </recent_temporary>
   </component>
@@ -503,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661155239066</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım">
+      <created>1661195720355</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1661195720355</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,6 +542,7 @@
     <MESSAGE value="Object reference was removed, static modifier added to method" />
     <MESSAGE value="enum field added&#10;finalize() method overriden" />
     <MESSAGE value="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array" />
-    <option name="LAST_COMMIT_MESSAGE" value="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array" />
+    <MESSAGE value="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım" />
   </component>
 </project>

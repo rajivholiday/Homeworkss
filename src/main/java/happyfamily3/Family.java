@@ -1,16 +1,20 @@
 package happyfamily3;
 
 
-
 import java.util.Arrays;
 import java.util.Objects;
 
 public class Family {
     private Human mother;
-    private  Human father;
+    private Human father;
     private Human[] children;
     private Pet pet;
     private int count = 2;
+
+    public Family() {
+
+    }
+
 
     public Family(Human mother, Human father, Human[] children) {
         this.mother = mother;
@@ -70,17 +74,28 @@ public class Family {
         return Objects.hash(mother, father);
     }
 
-    public void deleteChild(int index) {
+    public short deleteChild(int index) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         for (int i = 0, j = 0; i < children.length; i++) {
             if (i != index) {
                 new_arr[j++] = children[i];
-
             }
-
         }
         this.children = new_arr;
+        return 0;
     }
+
+    public short deleteChild1(Human child) {
+        Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
+        for (int i = 0, j = 0; i < children.length; i++) {
+            if (!new_arr[i].equals(child)) {
+                new_arr[j++] = children[i];
+            }
+        }
+        this.children = new_arr;
+        return 0;
+    }
+
 
     public int countFamily() {
         return count + children.length;
