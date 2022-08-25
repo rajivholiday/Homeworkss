@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
     </list>
@@ -68,9 +69,35 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetToArrayList">
+  <component name="RunManager" selected="Application.HashSetElements">
+    <configuration name="HashSetElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetElements" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashSetSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetSize" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetToArray" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -108,44 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily3" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FamilyTest.addChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily3" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
-      <option name="METHOD_NAME" value="addChildTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetElements" />
+        <item itemvalue="Application.HashSetToArray" />
         <item itemvalue="Application.HashSetToArrayList" />
         <item itemvalue="Application.HashSetSize" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FamilyTest" />
-        <item itemvalue="JUnit.FamilyTest.addChildTest" />
       </list>
     </recent_temporary>
   </component>
@@ -157,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00008" summary="inital commit">
-      <created>1659187757288</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1659187757288</updated>
     </task>
     <task id="LOCAL-00009" summary="printf method print etmir">
       <created>1659188278696</created>
@@ -501,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661450080564</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="initial commit">
+      <created>1661450875308</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1661450875328</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
