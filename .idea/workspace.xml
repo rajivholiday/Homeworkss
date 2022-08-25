@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Finalize() method was overriden for pet and family classes">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Happy Family 3 project completed">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,13 +161,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00005" summary="inital commit">
-      <created>1659178260254</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1659178260254</updated>
     </task>
     <task id="LOCAL-00006" summary="inital commit">
       <created>1659185730518</created>
@@ -511,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661272638943</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Happy Family 3 project completed">
+      <created>1661418002730</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1661418002732</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -546,6 +540,7 @@
     <MESSAGE value="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım" />
     <MESSAGE value="look at the deleteChild1 method,&#10;it gives out of bound exception" />
     <MESSAGE value="Finalize() method was overriden for pet and family classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalize() method was overriden for pet and family classes" />
+    <MESSAGE value="Happy Family 3 project completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy Family 3 project completed" />
   </component>
 </project>
