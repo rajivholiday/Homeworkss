@@ -11,9 +11,7 @@ public class Family {
     private Pet pet;
     private int count = 2;
 
-    public Family() {
 
-    }
 
 
     public Family(Human mother, Human father, Human[] children) {
@@ -85,12 +83,13 @@ public class Family {
 
     }
 
-    public void deleteChild1(Human child) {
+    public void deleteChild(Human child) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
-        for (int i = 0, j = 0; i < children.length; i++) {
-            if (!new_arr[j].equals(child)) {
-                new_arr[j++] = children[i];
-            }
+        int j = 0;
+        for (int i = 0; i < children.length; i++) {
+           if(!children[i].equals(child)){
+               new_arr[j++] = children[i];
+           }
         }
         this.children = new_arr;
 
@@ -99,7 +98,7 @@ public class Family {
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
-        System.out.println("Objects get deleting");
+        System.out.println("Family objects got deleted");
     }
 
     public int countFamily() {

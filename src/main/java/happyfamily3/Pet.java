@@ -86,7 +86,7 @@ public class Pet {
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
-        System.out.println("Freeing memory");
+        System.out.println("Pet objects got deleted");
     }
 
     @Override

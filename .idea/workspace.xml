@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="look at the deleteChild1 method,&#10;it gives out of bound exception">
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="Finalize() method was overriden for pet and family classes">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/personprint/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/personprint/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily3/FamilyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyTest.deleteChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyTest.addChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="happyfamily3" />
       <option name="MAIN_CLASS_NAME" value="happyfamily3.FamilyTest" />
-      <option name="METHOD_NAME" value="deleteChild" />
+      <option name="METHOD_NAME" value="addChildTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,10 +152,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FamilyTest" />
+        <item itemvalue="JUnit.FamilyTest.addChildTest" />
         <item itemvalue="JUnit.FamilyTest.deleteChildObjectTest" />
         <item itemvalue="JUnit.FamilyTest.deleteChild1Test" />
-        <item itemvalue="JUnit.FamilyTest" />
-        <item itemvalue="JUnit.FamilyTest.deleteChild" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00004" summary="inital commit">
-      <created>1659177811773</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1659177811774</updated>
     </task>
     <task id="LOCAL-00005" summary="inital commit">
       <created>1659178260254</created>
@@ -511,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661264508333</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Finalize() method was overriden for pet and family classes">
+      <created>1661272638941</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1661272638943</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,6 +545,7 @@
     <MESSAGE value="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array" />
     <MESSAGE value="Before each də yaratdığım field lər digər method larda görünmür&#10;Ona görə hər dəfə manual yazdım" />
     <MESSAGE value="look at the deleteChild1 method,&#10;it gives out of bound exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="look at the deleteChild1 method,&#10;it gives out of bound exception" />
+    <MESSAGE value="Finalize() method was overriden for pet and family classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize() method was overriden for pet and family classes" />
   </component>
 </project>

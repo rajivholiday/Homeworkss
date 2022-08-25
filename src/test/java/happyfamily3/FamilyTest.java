@@ -13,74 +13,62 @@ class FamilyTest {
         Human mother = new Human("Andrea", "Rossi", 1982);
         Human father = new Human("Martin", "Rossi", 1980);
         Human[] children = new Human[0];
-        Family rossi = new Family(mother, father, children);
+        this.new_Family = new Family(mother, father, children);
+
 
     }
 
 
     @Test
     void addChildTest() {
-        Human mother = new Human("Andrea", "Rossi", 1980);
-        Human father = new Human("Martin", "Rossi", 1978);
-        Human[] children = new Human[0];
-        Family rossi = new Family(mother, father, children);
         Human roberto = new Human("Roberto", "Rossi", 2005);
-        rossi.addChild(roberto);
+        new_Family.addChild(roberto);
 
         String result = "Family{ \n" +
-                "mother = Human{name = Andrea, surname = Rossi, year = 1980, iq = 0, schedule = null},\n" +
-                "father = Human{name = Martin, surname = Rossi, year = 1978, iq = 0, schedule = null},\n" +
+                "mother = Human{name = Andrea, surname = Rossi, year = 1982, iq = 0, schedule = null},\n" +
+                "father = Human{name = Martin, surname = Rossi, year = 1980, iq = 0, schedule = null},\n" +
                 "children = [Human{name = Roberto, surname = Rossi, year = 2005, iq = 0, schedule = null}],\n" +
                 "pet = null";
-        assertEquals(result, rossi.toString());
+        assertEquals(result, new_Family.toString());
 
 
     }
 
     @Test
     void deleteChildTest() {
-        Human mother = new Human("Andrea", "Rossi", 1980);
-        Human father = new Human("Martin", "Rossi", 1978);
-        Human[] children = new Human[0];
-        Family rossi = new Family(mother, father, children);
         Human roberto = new Human("Roberto", "Rossi", 2005);
-        rossi.addChild(roberto);
-        rossi.deleteChild(0);
+        new_Family.addChild(roberto);
+        new_Family.deleteChild(0);
         String result = "Family{ \n" +
-                "mother = Human{name = Andrea, surname = Rossi, year = 1980, iq = 0, schedule = null},\n" +
-                "father = Human{name = Martin, surname = Rossi, year = 1978, iq = 0, schedule = null},\n"
+                "mother = Human{name = Andrea, surname = Rossi, year = 1982, iq = 0, schedule = null},\n" +
+                "father = Human{name = Martin, surname = Rossi, year = 1980, iq = 0, schedule = null},\n"
                 + "children = [],\n" +
                 "pet = null";
-        assertEquals(result, rossi.toString());
+        assertEquals(result, new_Family.toString());
     }
+
     @Test
-    void deleteChildObjectTest(){
-        Human mother = new Human("Andrea", "Rossi", 1980);
-        Human father = new Human("Martin", "Rossi", 1978);
-        Human[] children = new Human[0];
-        Family rossi = new Family(mother, father, children);
+    void deleteChildObjectTest() {
+
         Human roberto = new Human("Roberto", "Rossi", 2005);
-        rossi.addChild(roberto);
-        rossi.deleteChild1(roberto);
+        new_Family.addChild(roberto);
+        new_Family.deleteChild(roberto);
         String result1 = "Family{ \n" +
-                "mother = Human{name = Andrea, surname = Rossi, year = 1980, iq = 0, schedule = null},\n" +
-                "father = Human{name = Martin, surname = Rossi, year = 1978, iq = 0, schedule = null},\n"
+                "mother = Human{name = Andrea, surname = Rossi, year = 1982, iq = 0, schedule = null},\n" +
+                "father = Human{name = Martin, surname = Rossi, year = 1980, iq = 0, schedule = null},\n"
                 + "children = [],\n" +
                 "pet = null";
-        assertEquals(result1, rossi.toString());
+        assertEquals(result1, new_Family.toString());
 
     }
 
     @Test
     void countFamily() {
-        Human mother = new Human("Andrea", "Rossi", 1980);
-        Human father = new Human("Martin", "Rossi", 1978);
-        Human[] children = new Human[0];
-        Family rossi = new Family(mother, father, children);
+
         Human roberto = new Human("Roberto", "Rossi", 2005);
-        rossi.addChild(roberto);
-        int i = 2 + children.length;
-        assertEquals(3, rossi.countFamily());
+        new_Family.addChild(roberto);
+        int i = 2 + new_Family.getChildren().length;
+        assertEquals(3, new_Family.countFamily());
 
     }
 }

@@ -44,17 +44,22 @@ public class Main {
 
         Family romano = new Family(mother_b, father_b, children_b);
         romano.addChild(luka);
-        romano.deleteChild1(luka);
+        romano.deleteChild(luka);
         System.out.println(romano.toString());
 
         for (int i = 0; i < 1000000000; i++) {
-            Pet myPets = new Pet();
-        }
-        for (int i = 0; i < 1000000000; i++) {
-            Family romanoFamily = new Family();
+            Family rossi = new Family(mother_b, father_b, children_b);
+            Pet catt = new Pet();
+            Human new_Human = new Human();
 
         }
+
+
     }
 
-
 }
+
+
+
+
+

@@ -83,6 +83,6 @@ public class Human {
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
-        System.out.println("I got deleted");
+        System.out.println("Human objects got deleted");
     }
 }
