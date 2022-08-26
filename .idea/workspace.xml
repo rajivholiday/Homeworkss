@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
     </list>
@@ -68,7 +67,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashSetToArray">
+  <component name="RunManager" selected="Application.HashSetToArrayList">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2_5.Compare" />
       <module name="Homeworkss" />
@@ -136,10 +135,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetToArrayList" />
         <item itemvalue="Application.HashSetToArray" />
         <item itemvalue="Application.RetainSameElements" />
         <item itemvalue="Application.HashSetClone" />
-        <item itemvalue="Application.HashSetToArrayList" />
         <item itemvalue="Application.Compare" />
       </list>
     </recent_temporary>
@@ -152,13 +151,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00013" summary="zeros from the double removed">
-      <created>1659348622293</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1659348622293</updated>
     </task>
     <task id="LOCAL-00014" summary="fahrenheit de vergulden sonra bir 0, selside ise iki sifir qalir?">
       <created>1659350051483</created>
@@ -496,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661488907644</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="initial commit">
+      <created>1661489787087</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1661489787088</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

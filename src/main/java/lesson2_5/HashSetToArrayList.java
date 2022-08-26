@@ -6,8 +6,7 @@ import java.util.HashSet;
 
 public class HashSetToArrayList {
     public static ArrayList convert(HashSet<String> cities, ArrayList<String> city_names) {
-        city_names = new ArrayList<>(cities);
-        return city_names;
+        return city_names = new ArrayList<>(cities);
     }
 
     public static void main(String[] args) {
