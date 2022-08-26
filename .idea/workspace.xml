@@ -7,7 +7,6 @@
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/RetainSameElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
     </list>
@@ -69,7 +68,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RetainSameElements">
+  <component name="RunManager" selected="Application.HashSetToArray">
     <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2_5.Compare" />
       <module name="Homeworkss" />
@@ -96,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetElements" />
+    <configuration name="HashSetToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetToArray" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetToArray" />
         <item itemvalue="Application.RetainSameElements" />
         <item itemvalue="Application.HashSetClone" />
         <item itemvalue="Application.HashSetToArrayList" />
         <item itemvalue="Application.Compare" />
-        <item itemvalue="Application.HashSetElements" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00012" summary="class name has changed">
-      <created>1659192503171</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1659192503171</updated>
     </task>
     <task id="LOCAL-00013" summary="zeros from the double removed">
       <created>1659348622293</created>
@@ -497,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661487580857</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="initial commit">
+      <created>1661488907643</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1661488907644</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
