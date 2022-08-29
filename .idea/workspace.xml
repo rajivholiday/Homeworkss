@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashMapExercises/SetViewOfMappings.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
@@ -70,7 +68,7 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetViewOfMappings">
+  <component name="RunManager" selected="Application.KeySetView">
     <configuration name="ContainsValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashMapExercises.ContainsValue" />
       <module name="Homeworkss" />
@@ -110,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapSize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashMapExercises.HashMapSize" />
+    <configuration name="KeySetView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashMapExercises.KeySetView" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeySetView" />
         <item itemvalue="Application.SetViewOfMappings" />
         <item itemvalue="Application.ContainsValue" />
         <item itemvalue="Application.EmptyOrNot" />
         <item itemvalue="Application.HashMapClearMappings" />
-        <item itemvalue="Application.HashMapSize" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00018" summary="initial commit">
-      <created>1659372687394</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1659372687394</updated>
     </task>
     <task id="LOCAL-00019" summary="initial commit">
       <created>1659543831039</created>
@@ -498,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661780246696</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="initial commit">
+      <created>1661782938905</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1661782938905</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
