@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hashMapExercises/HashMapClearMappings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashMapExercises/EmptyOrNot.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
@@ -70,7 +69,20 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapClearMappings">
+  <component name="RunManager" selected="Application.EmptyOrNot">
+    <configuration name="EmptyOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashMapExercises.EmptyOrNot" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashMapExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashMapClearMappings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hashMapExercises.HashMapClearMappings" />
       <module name="Homeworkss" />
@@ -110,19 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetToArray" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson2_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HashSetToArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2_5.HashSetToArrayList" />
       <module name="Homeworkss" />
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmptyOrNot" />
         <item itemvalue="Application.HashMapClearMappings" />
         <item itemvalue="Application.HashMapSize" />
         <item itemvalue="Application.HashSetClone" />
         <item itemvalue="Application.HashSetToArrayList" />
-        <item itemvalue="Application.HashSetToArray" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00016" summary="initial commit">
-      <created>1659366905946</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1659366905946</updated>
     </task>
     <task id="LOCAL-00017" summary="initial commit">
       <created>1659370039734</created>
@@ -498,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661779044421</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="initial commit">
+      <created>1661779703375</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1661779703375</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
