@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linkedListExercises/LinkedListIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linkedListExercises/IterateFromSpecificPosition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/MergeArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
@@ -70,13 +69,13 @@
       <recent name="Lesson8.homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedListIteration">
-    <configuration name="ContainsValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashMapExercises.ContainsValue" />
+  <component name="RunManager" selected="Application.IterateFromSpecificPosition">
+    <configuration name="IterateFromSpecificPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedListExercises.IterateFromSpecificPosition" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashMapExercises.*" />
+          <option name="PATTERN" value="linkedListExercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IterateFromSpecificPosition" />
         <item itemvalue="Application.LinkedListIteration" />
         <item itemvalue="Application.ValueSetView" />
         <item itemvalue="Application.KeySetView" />
         <item itemvalue="Application.SetViewOfMappings" />
-        <item itemvalue="Application.ContainsValue" />
       </list>
     </recent_temporary>
   </component>
@@ -154,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00021" summary="initial commit">
-      <created>1659706827088</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1659706827088</updated>
     </task>
     <task id="LOCAL-00022" summary="for loop changed to enhanced loop">
       <created>1659718415351</created>
@@ -498,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661783496184</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="initial commit">
+      <created>1661790670850</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1661790670850</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
