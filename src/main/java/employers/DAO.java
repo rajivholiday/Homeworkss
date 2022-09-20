@@ -3,7 +3,7 @@ package employers;
 import java.util.ArrayList;
 
 
-public interface Company<T> {
+public interface DAO<T> {
 
     public T get(T t);
 

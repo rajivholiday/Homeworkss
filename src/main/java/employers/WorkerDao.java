@@ -2,7 +2,7 @@ package employers;
 
 import java.util.ArrayList;
 
-public class WorkerDao implements Company<Worker> {
+public class WorkerDao implements DAO<Worker> {
     private final ArrayList<Worker> workers = new ArrayList<>();
 
     @Override

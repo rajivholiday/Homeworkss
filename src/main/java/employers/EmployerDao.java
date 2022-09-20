@@ -2,7 +2,7 @@ package employers;
 
 import java.util.ArrayList;
 
-public class EmployerDao implements Company<Employer> {
+public class EmployerDao implements DAO<Employer> {
     private final ArrayList<Employer> employers = new ArrayList<>();
 
     @Override
@@ -26,11 +26,11 @@ public class EmployerDao implements Company<Employer> {
     public Employer get(Employer managerName) {
         for (Employer manager : employers) {
             if (manager.getCompanyName() == managerName.getCompanyName()) {
-                return manager;
-
+                manager = managerName;
 
             }
-
         }
+        return managerName;
+
     }
 }
