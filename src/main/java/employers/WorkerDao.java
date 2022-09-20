@@ -9,9 +9,10 @@ public class WorkerDao implements Company<Worker> {
     public Worker get(Worker workerName) {
         for (Worker workerNames : workers) {
             if (workerNames == workerName) {
-                workerNames = workerName;
+
             }
         }
+        return workerName;
     }
 
     @Override

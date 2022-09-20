@@ -7,6 +7,7 @@
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
     </list>
@@ -45,11 +46,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/lessons"
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss/src/main/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java" />
       <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java\happyfamily3" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -148,13 +150,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00030" summary="initial commit">
-      <created>1660474406189</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1660474406189</updated>
     </task>
     <task id="LOCAL-00031" summary="initial commit">
       <created>1660474674905</created>
@@ -492,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663658626160</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="initial commit">
+      <created>1663697603008</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1663697603009</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

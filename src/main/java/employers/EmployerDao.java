@@ -26,7 +26,7 @@ public class EmployerDao implements Company<Employer> {
     public Employer get(Employer managerName) {
         for (Employer manager : employers) {
             if (manager.getCompanyName() == managerName.getCompanyName()) {
-                manager = managerName;
+                return manager;
 
 
             }
