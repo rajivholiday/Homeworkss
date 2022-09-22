@@ -1,11 +1,13 @@
 package employers;
 
+import java.util.Objects;
+
 public class Worker {
     String firstName;
     String lastName;
-    Double salary;
+    double salary;
 
-    public Worker(String firstName, String lastName, Double salary) {
+    public Worker(String firstName, String lastName, double salary) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = salary;
@@ -42,5 +44,17 @@ public class Worker {
                 ", lastName='" + lastName + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Worker worker)) return false;
+        return Double.compare(worker.salary, salary) == 0 && firstName.equals(worker.firstName) && lastName.equals(worker.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName, salary);
     }
 }

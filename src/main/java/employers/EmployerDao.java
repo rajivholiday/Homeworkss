@@ -23,14 +23,13 @@ public class EmployerDao implements DAO<Employer> {
     }
 
     @Override
-    public Employer get(Employer managerName) {
-        for (Employer manager : employers) {
-            if (manager.getCompanyName() == managerName.getCompanyName()) {
-                manager = managerName;
-
+    public Employer get(Employer requestedEmployer) {
+        for (Employer hr : employers) {
+            if (hr == requestedEmployer) {
+                return hr;
             }
         }
-        return managerName;
+        return null;
 
     }
 }

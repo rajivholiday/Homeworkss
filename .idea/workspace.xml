@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Employer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/employers/EmployerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/EmployerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/WorkerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/WorkerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
     </list>
@@ -47,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss/src/main/java"
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -151,20 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00032" summary="boolean contain was removed">
-      <created>1660489483711</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1660489483711</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Happy family2 project completed">
-      <created>1660725805151</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1660725805151</updated>
     </task>
     <task id="LOCAL-00034" summary="initial commit">
       <created>1660752440160</created>
@@ -495,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663698430208</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="initial commit">
+      <created>1663698556142</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698556143</updated>
+    </task>
+    <task id="LOCAL-00082" summary="initial commit">
+      <created>1663698739101</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1663698739101</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
