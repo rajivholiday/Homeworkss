@@ -25,7 +25,7 @@ public class EmployerDao implements DAO<Employer> {
     @Override
     public Employer get(Employer requestedEmployer) {
         for (Employer hr : employers) {
-            if (hr == requestedEmployer) {
+            if (hr.equals(requestedEmployer)) {
                 return hr;
             }
         }
