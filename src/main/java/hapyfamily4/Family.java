@@ -1,6 +1,5 @@
 package hapyfamily4;
 
-
 import java.util.Arrays;
 import java.util.Objects;
 
@@ -16,8 +15,6 @@ public class Family {
         this.mother = mother;
         this.father = father;
         this.children = children;
-
-
     }
 
     public Family(Human mother, Human father, Human[] children, Pet pet) {
@@ -25,7 +22,6 @@ public class Family {
         this.father = father;
         this.children = children;
         this.pet = pet;
-
     }
 
     public Human getMother() {

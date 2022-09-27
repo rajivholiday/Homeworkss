@@ -55,7 +55,7 @@ public abstract class Pet {
         this.nickname = nickname;
     }
 
-    public Pet( String nickname, int age, int trickLevel, String[] habits) {
+    public Pet(String nickname, int age, int trickLevel, String[] habits) {
         this.species = species;
         this.nickname = nickname;
         this.age = age;
@@ -67,7 +67,6 @@ public abstract class Pet {
 
     }
 
-
     public void eat() {
 
         System.out.println("I am eating");
@@ -75,17 +74,10 @@ public abstract class Pet {
 
     public abstract void respond();
 
-
     public void foul() {
 
         System.out.println("I need to cover it up");
     }
-
-//    @Override
-//    protected void finalize() throws Throwable {
-//        super.finalize();
-//        System.out.println("Pet objects got deleted");
-//    }
 
     @Override
     public String toString() {

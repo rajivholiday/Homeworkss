@@ -1,8 +1,6 @@
 package hapyfamily4;
 
 public class Dog extends Pet {
-    Species familyPets = Species.DOG;
-
     public Dog(String nickname, int age, int trickLevel, String[] habits) {
         super(nickname, age, trickLevel, habits);
         super.setFamilyPets(Species.DOG);

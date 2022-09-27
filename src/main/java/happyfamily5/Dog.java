@@ -3,7 +3,6 @@ package happyfamily5;
 import java.util.Set;
 
 public class Dog extends Pet {
-    Species familyPets = Species.DOG;
 
     public Dog(String nickname, int age, int trickLevel, Set<String> habits) {
         super(nickname, age, trickLevel, habits);
