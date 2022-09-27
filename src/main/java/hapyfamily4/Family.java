@@ -12,13 +12,19 @@ public class Family {
     private int count = 2;
 
 
-
-
     public Family(Human mother, Human father, Human[] children) {
         this.mother = mother;
         this.father = father;
         this.children = children;
 
+
+    }
+
+    public Family(Human mother, Human father, Human[] children, Pet pet) {
+        this.mother = mother;
+        this.father = father;
+        this.children = children;
+        this.pet = pet;
 
     }
 
@@ -87,9 +93,9 @@ public class Family {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         int j = 0;
         for (int i = 0; i < children.length; i++) {
-           if(!children[i].equals(child)){
-               new_arr[j++] = children[i];
-           }
+            if (!children[i].equals(child)) {
+                new_arr[j++] = children[i];
+            }
         }
         this.children = new_arr;
 

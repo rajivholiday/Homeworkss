@@ -5,28 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/DomesticCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Family.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Species.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Woman.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/lesson2_2/ArrayListCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/EmployerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/EmployerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/employers/WorkerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/employers/WorkerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetClone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2_5/HashSetToArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/DomesticCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/DomesticCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Woman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +148,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00036" summary="initial commit">
-      <created>1660754529072</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1660754529072</updated>
     </task>
     <task id="LOCAL-00037" summary="initial commit">
       <created>1660755140229</created>
@@ -506,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663851173532</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="initial commit">
+      <created>1664263369382</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1664263369384</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

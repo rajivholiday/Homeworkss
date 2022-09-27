@@ -1,13 +1,15 @@
 package hapyfamily4;
 
 public class DomesticCat extends Pet {
-    Species familyPets = Species.CAT;
-    String name;
 
-    DomesticCat(Species familyPets, String name) {
-        this.familyPets = familyPets;
-        this.name = name;
 
+    public DomesticCat( String nickname, int age, int trickLevel, String[] habits) {
+        super(nickname, age, trickLevel, habits);
+        super.setFamilyPets(Species.CAT);
+    }
+
+    public DomesticCat() {
+        super();
     }
 
     @Override

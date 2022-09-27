@@ -3,18 +3,18 @@ package hapyfamily4;
 import java.util.Arrays;
 
 public abstract class Pet {
-    private Species familyPets;
+    private Species species;
     private String nickname;
     private int age;
     private int trickLevel;
     private String[] habits;
 
     public Species getFamilyPets() {
-        return familyPets;
+        return species;
     }
 
     public void setFamilyPets(Species familyPets) {
-        this.familyPets = familyPets;
+        this.species = familyPets;
     }
 
     public String getNickname() {
@@ -51,12 +51,12 @@ public abstract class Pet {
 
     public Pet(Species familyPets, String nickname) {
 
-        this.familyPets = familyPets;
+        this.species = familyPets;
         this.nickname = nickname;
     }
 
     public Pet( String nickname, int age, int trickLevel, String[] habits) {
-        this.familyPets = familyPets;
+        this.species = species;
         this.nickname = nickname;
         this.age = age;
         this.trickLevel = trickLevel;
@@ -81,16 +81,16 @@ public abstract class Pet {
         System.out.println("I need to cover it up");
     }
 
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-        System.out.println("Pet objects got deleted");
-    }
+//    @Override
+//    protected void finalize() throws Throwable {
+//        super.finalize();
+//        System.out.println("Pet objects got deleted");
+//    }
 
     @Override
     public String toString() {
 
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.familyPets, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
 
     }
 }

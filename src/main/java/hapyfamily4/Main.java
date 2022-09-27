@@ -1,6 +1,8 @@
 package hapyfamily4;
 
 
+import java.util.jar.JarEntry;
+
 public class Main {
 
 
@@ -28,22 +30,19 @@ public class Main {
         };
 
         Human[] children = new Human[0];
+        Human mother = new Woman("Mary", "Johnson", 1980, 100, schedule_M);
+        Human father = new Man("Adam", "Johnson", 1970, 100, schedule_F);
+
+        Human son = new Man("Tom", "Johnson", 2000, 90, schedule_F);
+        Human daughter = new Woman("Alice", "Johnson", 2002, 90, schedule_M);
+        Pet cat = new DomesticCat("Graf", 3, 30, habits);
+
+        Family johnson = new Family(mother, father, children, cat);
+        johnson.addChild(son);
+        johnson.addChild(daughter);
 
 
-        Human mother = new Human("Jane", "Gomes", 1980);
-        Human father = new Human("Mario", "Gomes", 1978);
-
-        Human mother_b = new Human("Maria", "Romano", 1990, 100, schedule_M);
-        Human father_b = new Human("Francesko", "Romano", 1988, 105, schedule_F);
-        Human[] children_b = new Human[2];
-        children_b[0] = new Human("Max", "Romano", 2000);
-        children_b[1] = new Human("Martina", "Romano", 2002);
-        Human luka = new Human("Luka", "Romano", 2004);
-
-        Family romano = new Family(mother_b, father_b, children_b);
-        romano.addChild(luka);
-        romano.deleteChild(luka);
-        System.out.println(romano.toString());
+        System.out.println(johnson.toString());
 
 
         Dog myDog = new Dog();
