@@ -1,16 +1,19 @@
 package employers;
 
+import java.time.LocalDate;
 import java.util.Objects;
 
 public class Employer {
     private String firstName;
     private String lastName;
     private String companyName;
+    private LocalDate birthDate;
 
-    public Employer(String firstName, String lastName, String companyName) {
-        firstName = firstName;
+    public Employer(String firstName, String lastName, LocalDate birthDate, String companyName) {
+        this.firstName = firstName;
         this.lastName = lastName;
         this.companyName = companyName;
+        this.birthDate = birthDate;
     }
 
     public String getFirstName() {
@@ -37,12 +40,21 @@ public class Employer {
         this.companyName = companyName;
     }
 
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
     @Override
     public String toString() {
         return "Employer{" +
-                "FirstName='" + firstName + '\'' +
+                "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", companyName='" + companyName + '\'' +
+                ", birthDate=" + birthDate +
                 '}';
     }
 
@@ -50,11 +62,11 @@ public class Employer {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Employer employer)) return false;
-        return firstName.equals(employer.firstName) && lastName.equals(employer.lastName) && companyName.equals(employer.companyName);
+        return firstName.equals(employer.firstName) && lastName.equals(employer.lastName) && companyName.equals(employer.companyName) && birthDate.equals(employer.birthDate);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, companyName);
+        return Objects.hash(firstName, lastName, companyName, birthDate);
     }
 }

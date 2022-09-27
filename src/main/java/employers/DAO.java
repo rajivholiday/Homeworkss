@@ -7,7 +7,6 @@ public interface DAO<T> {
 
     public T get(T t);
 
-
     public ArrayList<T> getAll();
 
     public void delete(T t);

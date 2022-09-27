@@ -1,5 +1,7 @@
 package employers;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class EmployerDao implements DAO<Employer> {
@@ -22,6 +24,7 @@ public class EmployerDao implements DAO<Employer> {
 
     }
 
+
     @Override
     public Employer get(Employer requestedEmployer) {
         for (Employer hr : employers) {
@@ -30,6 +33,26 @@ public class EmployerDao implements DAO<Employer> {
             }
         }
         return null;
+
+    }
+
+    public void age(int age) {
+        if (age < 18) {
+            throw new IndexOutOfBoundsException("Access denied, you must be older than 18");
+        } else {
+            System.out.println("Access granted");
+        }
+    }
+
+    public String convertBirthDateToString(LocalDate birthDate) {
+        String s = birthDate.format(DateTimeFormatter.ISO_DATE);
+        return s;
+
+    }
+
+    public LocalDate convertStringToDate(String s) {
+        LocalDate date = LocalDate.parse(s);
+        return date;
 
     }
 }
