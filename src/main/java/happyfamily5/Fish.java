@@ -1,10 +1,12 @@
-package hapyfamily4;
+package happyfamily5;
+
+import java.util.Set;
 
 public class Fish extends Pet {
     Species familyPets = Species.FISH;
 
 
-    public Fish(String nickname, int age, int trickLevel, String[] habits) {
+    public Fish(String nickname, int age, int trickLevel, Set<String> habits) {
         super(nickname, age, trickLevel, habits);
         super.setFamilyPets(Species.FISH);
     }
