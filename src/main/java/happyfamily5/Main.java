@@ -28,7 +28,7 @@ public class Main {
         schedule_M.put(DayOfWeek.MONDAY.name(), "Cleaning");
         schedule_M.put(DayOfWeek.THURSDAY.name(), "Sewing");
         schedule_M.put(DayOfWeek.WEDNESDAY.name(), "Yoga");
-        schedule_M.put(DayOfWeek.THURSDAY.name(), "Yoga");
+        schedule_M.put(DayOfWeek.THURSDAY.name(), "Exercising");
         schedule_M.put(DayOfWeek.FRIDAY.name(), "Movie");
         schedule_M.put(DayOfWeek.SATURDAY.name(), "Shopping");
         schedule_M.put(DayOfWeek.SUNDAY.name(), "Walking");

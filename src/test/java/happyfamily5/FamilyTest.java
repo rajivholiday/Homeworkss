@@ -22,15 +22,18 @@ class FamilyTest {
         Human father = new Man("Sergio", "Romero", 1976, 100, schedule);
         Human son = new Man("Tomas", "Romero", 2000, 90, schedule);
         Human daughter = new Woman("Mary", "Romero", 2002, 88, schedule);
-        this.romero = new Family(father, mother, children);
         children.add(son);
         children.add(daughter);
+        this.romero = new Family(father, mother, children);
 
 
     }
 
     @Test
     void addChildTest() {
+
+
+
 
 
 

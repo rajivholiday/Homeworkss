@@ -8,13 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
-        String[][] schedule_F = {{DayOfWeek.MONDAY.name(), "Swimming"},
-                {DayOfWeek.TUESDAY.name(), "Camping"},
-                {DayOfWeek.WEDNESDAY.name(), "Billiard"},
-                {DayOfWeek.THURSDAY.name(), "Football"},
-                {DayOfWeek.FRIDAY.name(), "Movie"},
-                {DayOfWeek.SATURDAY.name(), "Concert"},
-                {DayOfWeek.SUNDAY.name(), "Walking"}};
+        String[][] schedule_F =
+                {{DayOfWeek.MONDAY.name(), "Swimming"},
+                        {DayOfWeek.TUESDAY.name(), "Camping"},
+                        {DayOfWeek.WEDNESDAY.name(), "Billiard"},
+                        {DayOfWeek.THURSDAY.name(), "Football"},
+                        {DayOfWeek.FRIDAY.name(), "Movie"},
+                        {DayOfWeek.SATURDAY.name(), "Concert"},
+                        {DayOfWeek.SUNDAY.name(), "Walking"}};
 
 
         String[][] schedule_M = {{DayOfWeek.MONDAY.name(), "Cooking"}, {DayOfWeek.TUESDAY.name(), "Cleaning"}, {DayOfWeek.WEDNESDAY.name(), "Sewing"}, {DayOfWeek.THURSDAY.name(), "Yoga"}, {DayOfWeek.FRIDAY.name(), "Movie"}, {DayOfWeek.SATURDAY.name(), "Shopping"}, {DayOfWeek.SUNDAY.name(), "Walking"}};
@@ -28,7 +29,7 @@ public class Main {
 
         Pet cat = new DomesticCat("Graf", 3, 30, habits);
         Pet dog = new Dog("Rex", 3, 24, habits);
-        Pet fish = new Fish("Tuna", 6,18,habits);
+        Pet fish = new Fish("Tuna", 6, 18, habits);
 
         Family johnson1 = new Family(mother, father, children, cat);
         johnson1.addChild(son);
