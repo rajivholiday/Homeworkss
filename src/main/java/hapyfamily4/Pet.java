@@ -9,6 +9,22 @@ public abstract class Pet {
     private int trickLevel;
     private String[] habits;
 
+    public Pet(Species familyPets, String nickname) {
+
+        this.species = familyPets;
+        this.nickname = nickname;
+    }
+
+    public Pet(String nickname, int age, int trickLevel, String[] habits) {
+        this.species = species;
+        this.nickname = nickname;
+        this.age = age;
+        this.trickLevel = trickLevel;
+        this.habits = habits;
+    }
+    public Pet() {
+    }
+
     public Species getFamilyPets() {
         return species;
     }
@@ -48,41 +64,18 @@ public abstract class Pet {
     public void setHabits(String[] habits) {
         this.habits = habits;
     }
-
-    public Pet(Species familyPets, String nickname) {
-
-        this.species = familyPets;
-        this.nickname = nickname;
+    @Override
+    public String toString() {
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }",
+                this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
     }
-
-    public Pet(String nickname, int age, int trickLevel, String[] habits) {
-        this.species = species;
-        this.nickname = nickname;
-        this.age = age;
-        this.trickLevel = trickLevel;
-        this.habits = habits;
-    }
-
-    public Pet() {
-
-    }
-
     public void eat() {
-
         System.out.println("I am eating");
     }
 
     public abstract void respond();
 
     public void foul() {
-
         System.out.println("I need to cover it up");
-    }
-
-    @Override
-    public String toString() {
-
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
-
     }
 }

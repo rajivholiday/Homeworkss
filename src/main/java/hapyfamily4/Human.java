@@ -11,12 +11,8 @@ public class Human {
     private String[][] schedule;
     Family family;
 
-
-
     public Human() {
-
     }
-
 
     public Human(String name, String surname, int birthYear, int iq, String[][] schedule) {
         this.name = name;
@@ -32,7 +28,6 @@ public class Human {
         this.surname = surname;
         this.birthYear = birthYear;
     }
-
 
     public String getName() {
         return name;
