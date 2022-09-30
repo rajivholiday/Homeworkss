@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Robocat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/training"
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -172,13 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Object reference was removed, static modifier added to method">
-      <created>1660924222767</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1660924222767</updated>
     </task>
     <task id="LOCAL-00045" summary="Object reference was removed, static modifier added to method">
       <created>1660924721597</created>
@@ -516,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664355893237</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="initial commit">
+      <created>1664561221478</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1664561221479</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -51,8 +51,8 @@ public class CheckExecutingTimes {
         arr.add("Alice");
         arr.add("Donna");
         arr.add("Tod");
-        arr.add("Vijay");
-        arr.add("Tom");
+        arr.add("Gerard");
+        arr.add("Arthur");
         arr.add("John");
         arr.add("Miguel");
 
