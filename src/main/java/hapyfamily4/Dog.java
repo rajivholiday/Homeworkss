@@ -6,6 +6,7 @@ public class Dog extends Pet {
         super.setFamilyPets(Species.DOG);
     }
 
+
     @Override
     public void respond() {
         System.out.println("The dog says: bow bow");

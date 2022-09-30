@@ -9,9 +9,9 @@ public abstract class Pet {
     private int trickLevel;
     private String[] habits;
 
-    public Pet(Species familyPets, String nickname) {
+    public Pet(Species species, String nickname) {
 
-        this.species = familyPets;
+        this.species = species;
         this.nickname = nickname;
     }
 
@@ -25,12 +25,12 @@ public abstract class Pet {
     public Pet() {
     }
 
-    public Species getFamilyPets() {
+    public Species getSpecies() {
         return species;
     }
 
-    public void setFamilyPets(Species familyPets) {
-        this.species = familyPets;
+    public void setFamilyPets(Species species) {
+        this.species = species;
     }
 
     public String getNickname() {

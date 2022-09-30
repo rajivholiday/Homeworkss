@@ -39,17 +39,17 @@ public class Main {
 
         Human son = new Man("Tom", "Johnson", 2000, 90, schedule_F);
         Human daughter = new Woman("Alice", "Johnson", 2002, 90, schedule_M);
-        children.add(son);
-        children.add(daughter);
+
 
         Family johnson1 = new Family(mother, father, children, pets);
-        johnson1.addChild(children.get(0));
-        johnson1.addChild(children.get(1));
+        johnson1.addChild(son);
+        johnson1.addChild(daughter);
 
 
         System.out.println(johnson1.toString());
         Family johnson2 = new Family(mother, father, children, pets);
         System.out.println(johnson2);
+        System.out.println(johnson2.toString().contains(son.toString()));
 
 
     }

@@ -5,4 +5,5 @@ public class Robocat extends Pet {
     public void respond() {
         System.out.println("");
     }
+
 }

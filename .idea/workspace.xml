@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Robocat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss"
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/training"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -73,26 +77,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.happyfamily5.Main">
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GFG" />
-      <module name="Homeworkss" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="employers.Main" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="employers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="happyfamily5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="happyfamily5.Main" />
       <module name="Homeworkss" />
@@ -106,28 +90,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hapyfamily4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hapyfamily4.Main" />
+    <configuration name="FamilyTest.addChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hapyfamily4.*" />
+          <option name="PATTERN" value="happyfamily5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="happyfamily5" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
+      <option name="METHOD_NAME" value="addChildTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hapyfamily4.happyfamily3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hapyfamily4.happyfamily3.Main" />
+    <configuration name="FamilyTest.countFamilyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hapyfamily4.happyfamily3.*" />
+          <option name="PATTERN" value="happyfamily5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="happyfamily5" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
+      <option name="METHOD_NAME" value="countFamilyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyTest.deleteChildTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="happyfamily5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="happyfamily5" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
+      <option name="METHOD_NAME" value="deleteChildTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyTest.deleteChildTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="happyfamily5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="happyfamily5" />
+      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
+      <option name="METHOD_NAME" value="deleteChildTest2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.happyfamily5.Main" />
-        <item itemvalue="Application.hapyfamily4.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GFG" />
-        <item itemvalue="Application.hapyfamily4.happyfamily3.Main" />
+        <item itemvalue="JUnit.FamilyTest.deleteChildTest2" />
+        <item itemvalue="JUnit.FamilyTest.deleteChildTest1" />
+        <item itemvalue="JUnit.FamilyTest.addChildTest" />
+        <item itemvalue="JUnit.FamilyTest.countFamilyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +172,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Object reference was removed, static modifier added to method">
-      <created>1660923492238</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1660923492238</updated>
     </task>
     <task id="LOCAL-00044" summary="Object reference was removed, static modifier added to method">
       <created>1660924222767</created>
@@ -494,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664355571497</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="initial commit">
+      <created>1664355893237</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355893237</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
