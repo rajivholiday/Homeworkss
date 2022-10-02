@@ -33,23 +33,28 @@ public class Main {
         schedule_M.put(DayOfWeek.SATURDAY.name(), "Shopping");
         schedule_M.put(DayOfWeek.SUNDAY.name(), "Walking");
 
-        List<Human> children = new ArrayList<>();
-        Human mother = new Woman("Mary", "Johnson", 1980, 100, schedule_M);
-        Human father = new Man("Adam", "Johnson", 1970, 100, schedule_F);
+        List<Human> children1 = new ArrayList<>();
+        Human mother1 = new Woman("Mary", "Johnson", 1980, 100, schedule_M);
+        Human father1 = new Man("Adam", "Johnson", 1970, 100, schedule_F);
 
-        Human son = new Man("Tom", "Johnson", 2000, 90, schedule_F);
-        Human daughter = new Woman("Alice", "Johnson", 2002, 90, schedule_M);
+        Human son1 = new Man("Tom", "Johnson", 2000, 90, schedule_F);
+        Human daughter1 = new Woman("Alice", "Johnson", 2002, 90, schedule_M);
+        Human mother2 = new Woman("Mary", "Johnson", 1980);
+        Human father2 = new Man("Adam", "Johnson", 1970);
+        Human son2 = new Man("Tom", "Johnson", 2000);
+        Human daughter2 = new Woman("Alice", "Johnson", 2002);
+        List<Human> children2 = new ArrayList<>();
+        children2.add(son2);
+        children2.add(daughter2);
 
 
-        Family johnson1 = new Family(mother, father, children, pets);
-        johnson1.addChild(son);
-        johnson1.addChild(daughter);
-
-
+        Family johnson1 = new Family(mother1, father1, children1, pets);
+        johnson1.addChild(son1);
+        johnson1.addChild(daughter1);
+        Family johnson2 = new Family(mother2, father2, children2);
         System.out.println(johnson1.toString());
-        Family johnson2 = new Family(mother, father, children, pets);
         System.out.println(johnson2);
-        System.out.println(johnson2.toString().contains(son.toString()));
+
 
 
     }

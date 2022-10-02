@@ -84,7 +84,7 @@ public class Human {
     public String toString() {
         return String.format("Human" +
                         "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
-                schedule.toString());
+                schedule);
     }
     //@Override
 //    protected void finalize() throws Throwable {

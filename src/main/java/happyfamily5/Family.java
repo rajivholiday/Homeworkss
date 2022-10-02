@@ -100,6 +100,6 @@ public class Family {
     @Override
     public String toString() {
         return String.format("Family{ \nmother = %s,\nfather = %s,\nchildren = %s,\npet = %s", mother, father,
-                children.toString(), pet);
+                children, pet);
     }
 }
