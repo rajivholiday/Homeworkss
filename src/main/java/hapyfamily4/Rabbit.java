@@ -5,7 +5,6 @@ public class Rabbit extends Pet{
         super(nickname, age, trickLevel, habits);
         super.setFamilyPets(Species.UNKNOWN);
     }
-
     @Override
     public void respond() {
 

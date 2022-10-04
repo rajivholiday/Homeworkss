@@ -1,11 +1,8 @@
 package happyfamily3;
 
-
 import Lesson8.WeekDays;
 
 public class Main {
-
-
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
         String[][] schedule_F = {
@@ -18,7 +15,6 @@ public class Main {
                 {DayOfWeek.SUNDAY.name(), "Walking"}
         };
 
-
         String[][] schedule_M = {
                 {DayOfWeek.MONDAY.name(), "Cooking"},
                 {DayOfWeek.TUESDAY.name(), "Cleaning"},
@@ -30,8 +26,6 @@ public class Main {
         };
 
         Human[] children = new Human[0];
-
-
         Human mother = new Human("Jane", "Gomes", 1980);
         Human father = new Human("Mario", "Gomes", 1978);
 
@@ -51,12 +45,10 @@ public class Main {
             Family rossi = new Family(mother_b, father_b, children_b);
             Pet catt = new Pet();
             Human new_Human = new Human();
-
         }
 
 
     }
-
 }
 
 

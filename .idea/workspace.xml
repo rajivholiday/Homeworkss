@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Rabbit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/DomesticCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/DomesticCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Robocat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Rabbit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +76,26 @@
       <recent name="Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.hapyfamily4.Main">
+  <component name="RunManager" selected="Application.happyfamily3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="happyfamily5.Main" />
       <module name="Homeworkss" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="happyfamily5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="happyfamily3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="happyfamily3.Main" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="happyfamily3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyTest.deleteChildTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily5" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
-      <option name="METHOD_NAME" value="deleteChildTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.happyfamily3.Main" />
         <item itemvalue="Application.hapyfamily4.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FamilyTest" />
         <item itemvalue="JUnit.FamilyTest.addChildTest" />
-        <item itemvalue="JUnit.FamilyTest.deleteChildTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -169,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00052" summary="look at the deleteChild1 method,&#10;it gives out of bound exception">
-      <created>1661264508333</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1661264508333</updated>
     </task>
     <task id="LOCAL-00053" summary="Finalize() method was overriden for pet and family classes">
       <created>1661272638941</created>
@@ -513,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664901845899</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="initial commit">
+      <created>1664905118626</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1664905118631</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
