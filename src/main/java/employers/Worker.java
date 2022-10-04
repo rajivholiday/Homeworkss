@@ -1,5 +1,4 @@
 package employers;
-
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -52,16 +51,6 @@ public class Worker {
     }
 
     @Override
-    public String toString() {
-        return "Worker{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", salary=" + salary +
-                ", birthDate=" + birthDate +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Worker worker)) return false;
@@ -71,5 +60,14 @@ public class Worker {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName, salary, birthDate);
+    }
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", salary=" + salary +
+                ", birthDate=" + birthDate +
+                '}';
     }
 }

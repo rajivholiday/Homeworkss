@@ -1,5 +1,4 @@
 package employers;
-
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -47,17 +46,6 @@ public class Employer {
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
-
-    @Override
-    public String toString() {
-        return "Employer{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", companyName='" + companyName + '\'' +
-                ", birthDate=" + birthDate +
-                '}';
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -69,4 +57,14 @@ public class Employer {
     public int hashCode() {
         return Objects.hash(firstName, lastName, companyName, birthDate);
     }
+    @Override
+    public String toString() {
+        return "Employer{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", companyName='" + companyName + '\'' +
+                ", birthDate=" + birthDate +
+                '}';
+    }
 }
+
