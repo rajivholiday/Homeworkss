@@ -5,7 +5,6 @@ public class Fish extends Pet {
         super(nickname, age, trickLevel, habits);
         super.setFamilyPets(Species.FISH);
     }
-
     @Override
     public void respond() {
         System.out.println("The Fish says: muah muah");

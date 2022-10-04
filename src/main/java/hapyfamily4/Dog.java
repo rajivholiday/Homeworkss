@@ -5,8 +5,6 @@ public class Dog extends Pet {
         super(nickname, age, trickLevel, habits);
         super.setFamilyPets(Species.DOG);
     }
-
-
     @Override
     public void respond() {
         System.out.println("The dog says: bow bow");

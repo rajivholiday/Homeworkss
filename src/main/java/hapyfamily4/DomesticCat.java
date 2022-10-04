@@ -6,10 +6,6 @@ public class DomesticCat extends Pet {
         super.setFamilyPets(Species.CAT);
     }
 
-    public DomesticCat() {
-        super();
-    }
-
     @Override
     public void respond() {
         System.out.println("The Cat says: meow meow");

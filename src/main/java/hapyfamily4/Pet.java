@@ -1,6 +1,7 @@
 package hapyfamily4;
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public abstract class Pet {
     private Species species;
@@ -25,7 +26,6 @@ public abstract class Pet {
         this.trickLevel = trickLevel;
         this.habits = habits;
     }
-
 
     public Species getSpecies() {
         return species;
@@ -65,6 +65,20 @@ public abstract class Pet {
 
     public void setHabits(String[] habits) {
         this.habits = habits;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pet pet)) return false;
+        return age == pet.age && trickLevel == pet.trickLevel && species == pet.species && nickname.equals(pet.nickname) && Arrays.equals(habits, pet.habits);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(species, nickname, age, trickLevel);
+        result = 31 * result + Arrays.hashCode(habits);
+        return result;
     }
 
     @Override

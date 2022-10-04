@@ -1,11 +1,8 @@
 package hapyfamily4;
 
-
 import java.util.jar.JarEntry;
 
 public class Main {
-
-
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
         String[][] schedule_F =
@@ -30,17 +27,17 @@ public class Main {
         Pet cat = new DomesticCat("Graf", 3, 30, habits);
         Pet dog = new Dog("Rex", 3, 24, habits);
         Pet fish = new Fish("Tuna", 6, 18, habits);
+        Pet rabbit = new Rabbit("Bunny", 2, 24, habits);
 
         Family johnson1 = new Family(mother, father, children, cat);
         johnson1.addChild(son);
         johnson1.addChild(daughter);
 
-
         System.out.println(johnson1.toString());
         Family johnson2 = new Family(mother, father, children, dog);
         System.out.println(johnson2);
-
-
+        System.out.println(rabbit.toString());
+        System.out.println(cat.toString());
     }
 
 }
