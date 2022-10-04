@@ -6,12 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily3/Species.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hapyfamily4/Rabbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hapyfamily4/Rabbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily1/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily1/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HappyFamily2/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,20 @@
       <recent name="Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.happyfamily3.Main">
+  <component name="RunManager" selected="Application.HappyFamily2.Main">
+    <configuration name="HappyFamily2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HappyFamily2.Main" />
+      <module name="Homeworkss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HappyFamily2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="happyfamily5.Main" />
       <module name="Homeworkss" />
@@ -131,29 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyTest.addChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily5" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily5.FamilyTest" />
-      <option name="METHOD_NAME" value="addChildTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HappyFamily2.Main" />
         <item itemvalue="Application.happyfamily3.Main" />
         <item itemvalue="Application.hapyfamily4.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FamilyTest" />
-        <item itemvalue="JUnit.FamilyTest.addChildTest" />
       </list>
     </recent_temporary>
   </component>
@@ -165,13 +163,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Finalize() method was overriden for pet and family classes">
-      <created>1661272638941</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1661272638943</updated>
     </task>
     <task id="LOCAL-00054" summary="Happy Family 3 project completed">
       <created>1661418002730</created>
@@ -509,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664905118631</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="initial commit">
+      <created>1664905921251</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1664905921251</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

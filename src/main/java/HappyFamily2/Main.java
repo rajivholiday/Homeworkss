@@ -1,11 +1,7 @@
 package HappyFamily2;
-
-
 import java.util.Arrays;
 
 public class Main {
-
-
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
         String[][] schedule_F = {

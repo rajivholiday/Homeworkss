@@ -1,9 +1,5 @@
 package HappyFamily1;
-
-
 public class Main {
-
-
     public static void main(String[] args) {
         String habits[] = {"eat", "drink", "sleep"};
         String[][] schedule = {
@@ -15,8 +11,6 @@ public class Main {
                 {"Saturday", "Concert"},
                 {"Sunday", "Walking"}
         };
-
-
 
         Pet dog = new Pet("Dog", "Rock", 5, 75, habits);
         Pet cat = new Pet("Cat", "Graf");
@@ -34,7 +28,6 @@ public class Main {
         System.out.println(cat.toString());
         System.out.println(parrot.toString());
         System.out.println(juniorSon.toString());
-
 
         dog.eat();
         dog.respond();

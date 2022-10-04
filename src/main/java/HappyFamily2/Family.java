@@ -1,5 +1,4 @@
 package HappyFamily2;
-
 import java.util.Arrays;
 import java.util.Objects;
 
@@ -14,7 +13,6 @@ public class Family {
         this.mother = mother;
         this.father = father;
         this.children = children;
-
 
     }
 
@@ -50,12 +48,6 @@ public class Family {
         this.pet = pet;
     }
 
-    public void addChild(Human child) {
-        this.children = Arrays.copyOf(this.children, this.children.length + 1);
-        children[children.length - 1] = child;
-
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -68,6 +60,12 @@ public class Family {
         return Objects.hash(mother, father);
     }
 
+    @Override
+    public String toString() {
+        return String.format("Family{ \nmother = %s,\nfather = %s,\nchildren = %s,\npet = %s", mother, father,
+                Arrays.toString(children), pet);
+    }
+
     public void deleteChild(int index) {
         Human[] new_arr = Arrays.copyOf(this.children, this.children.length - 1);
         for (int i = 0, j = 0; i < children.length; i++) {
@@ -75,7 +73,6 @@ public class Family {
                 new_arr[j++] = children[i];
 
             }
-
         }
         this.children = new_arr;
     }
@@ -83,10 +80,9 @@ public class Family {
     public int countFamily() {
         return count + children.length;
     }
+    public void addChild(Human child) {
+        this.children = Arrays.copyOf(this.children, this.children.length + 1);
+        children[children.length - 1] = child;
 
-    @Override
-    public String toString() {
-        return String.format("Family{ \nmother = %s,\nfather = %s,\nchildren = %s,\npet = %s", mother, father,
-                Arrays.toString(children), pet);
     }
 }

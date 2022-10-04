@@ -2,6 +2,7 @@ package HappyFamily2;
 
 
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Human {
     private String name;
@@ -14,8 +15,6 @@ public class Human {
     public Human() {
 
     }
-
-
     public Human(String name, String surname, int birthYear, int iq, String[][] schedule) {
         this.name = name;
         this.surname = surname;
@@ -30,8 +29,6 @@ public class Human {
         this.surname = surname;
         this.birthYear = birthYear;
     }
-
-
     public String getName() {
         return name;
     }
@@ -73,6 +70,19 @@ public class Human {
         this.schedule = schedule;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Human human)) return false;
+        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && Arrays.equals(schedule, human.schedule) && family.equals(human.family);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(name, surname, birthYear, iq, family);
+        result = 31 * result + Arrays.hashCode(schedule);
+        return result;
+    }
 
     public String toString() {
         return String.format("Human" +
