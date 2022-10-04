@@ -9,6 +9,9 @@ public abstract class Pet {
     private int trickLevel;
     private String[] habits;
 
+    public Pet() {
+    }
+
     public Pet(Species species, String nickname) {
 
         this.species = species;
@@ -22,8 +25,7 @@ public abstract class Pet {
         this.trickLevel = trickLevel;
         this.habits = habits;
     }
-    public Pet() {
-    }
+
 
     public Species getSpecies() {
         return species;
@@ -64,11 +66,13 @@ public abstract class Pet {
     public void setHabits(String[] habits) {
         this.habits = habits;
     }
+
     @Override
     public String toString() {
         return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }",
                 this.species, this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
     }
+
     public void eat() {
         System.out.println("I am eating");
     }

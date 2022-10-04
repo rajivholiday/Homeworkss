@@ -68,18 +68,6 @@ public class Family {
         this.count = count;
     }
 
-    public void addChild(Human child) {
-        this.children.add(child);
-    }
-
-    public void deleteChild(int index) {
-        this.children.remove(index);
-    }
-
-    public void deleteChild(Human child) {
-        this.children.remove(child);
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -101,5 +89,16 @@ public class Family {
     public String toString() {
         return String.format("Family{ \nmother = %s,\nfather = %s,\nchildren = %s,\npet = %s", mother, father,
                 children, pet);
+    }
+    public void addChild(Human child) {
+        this.children.add(child);
+    }
+
+    public void deleteChild(int index) {
+        this.children.remove(index);
+    }
+
+    public void deleteChild(Human child) {
+        this.children.remove(child);
     }
 }

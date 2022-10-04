@@ -1,7 +1,6 @@
 package hapyfamily4;
-
-
 import java.util.Arrays;
+import java.util.Objects;
 
 public class Human {
     private String name;
@@ -70,21 +69,28 @@ public class Human {
         this.schedule = schedule;
     }
 
-    public void greetPet(){
-        System.out.println("hi");
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Human human)) return false;
+        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && Arrays.equals(schedule, human.schedule) && family.equals(human.family);
     }
 
-
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(name, surname, birthYear, iq, family);
+        result = 31 * result + Arrays.hashCode(schedule);
+        return result;
+    }
 
     public String toString() {
         return String.format("Human" +
                         "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
                 Arrays.deepToString(schedule));
     }
-
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-        System.out.println("Human objects got deleted");
+    public void greetPet(){
+        System.out.println("hi");
     }
+
+
 }
