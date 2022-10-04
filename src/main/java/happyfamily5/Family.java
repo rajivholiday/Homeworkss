@@ -81,15 +81,16 @@ public class Family {
     }
 
 
-    public int countFamily() {
-        return count + children.size();
-    }
-
     @Override
     public String toString() {
         return String.format("Family{ \nmother = %s,\nfather = %s,\nchildren = %s,\npet = %s", mother, father,
                 children, pet);
     }
+
+    public int countFamily() {
+        return count + children.size();
+    }
+
     public void addChild(Human child) {
         this.children.add(child);
     }
