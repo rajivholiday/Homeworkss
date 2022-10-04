@@ -3,6 +3,7 @@ package happyfamily5;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class Human {
     private String name;
@@ -12,12 +13,9 @@ public class Human {
     private Map<String, String> schedule;
     private Family family;
 
-
     public Human() {
 
     }
-
-
     public Human(String name, String surname, int birthYear, int iq, Map<String, String> schedule) {
         this.name = name;
         this.surname = surname;
@@ -82,14 +80,22 @@ public class Human {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Human human)) return false;
+        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && schedule.equals(human.schedule) && family.equals(human.family);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, surname, birthYear, iq, schedule, family);
+    }
+
+    @Override
     public String toString() {
         return String.format("Human" +
                         "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
                 schedule);
     }
-    //@Override
-//    protected void finalize() throws Throwable {
-//        super.finalize();
-//        System.out.println("Human objects got deleted");
 }
 

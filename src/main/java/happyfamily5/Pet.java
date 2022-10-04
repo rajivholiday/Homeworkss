@@ -1,6 +1,7 @@
 package happyfamily5;
 
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Set;
 
 public abstract class Pet {
@@ -9,6 +10,9 @@ public abstract class Pet {
     private int age;
     private int trickLevel;
     private Set<String> habits;
+
+    public Pet() {
+    }
 
     public Pet(Species species, String nickname) {
 
@@ -24,8 +28,6 @@ public abstract class Pet {
         this.habits = habits;
     }
 
-    public Pet() {
-    }
 
     public Species getFamilyPets() {
         return species;
@@ -67,6 +69,25 @@ public abstract class Pet {
         this.habits = habits;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pet pet)) return false;
+        return age == pet.age && trickLevel == pet.trickLevel && species == pet.species && nickname.equals(pet.nickname) && habits.equals(pet.habits);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(species, nickname, age, trickLevel, habits);
+    }
+
+    @Override
+    public String toString() {
+
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }",
+                this.species, this.nickname, this.age, this.trickLevel, habits.toString());
+
+    }
 
     public void eat() {
 
@@ -81,11 +102,5 @@ public abstract class Pet {
         System.out.println("I need to cover it up");
     }
 
-    @Override
-    public String toString() {
 
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }",
-                this.species, this.nickname, this.age, this.trickLevel, habits.toString());
-
-    }
 }
