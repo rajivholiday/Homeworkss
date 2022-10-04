@@ -1,4 +1,5 @@
 package happyfamily5;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +10,7 @@ public class Human {
     private int birthYear;
     private int iq;
     private Map<String, String> schedule;
-    Family family;
+    private Family family;
 
 
     public Human() {
