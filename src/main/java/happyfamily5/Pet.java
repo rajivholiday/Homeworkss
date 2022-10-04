@@ -1,4 +1,5 @@
 package happyfamily5;
+
 import java.util.Arrays;
 import java.util.Set;
 
@@ -9,9 +10,9 @@ public abstract class Pet {
     private int trickLevel;
     private Set<String> habits;
 
-    public Pet(Species familyPets, String nickname) {
+    public Pet(Species species, String nickname) {
 
-        this.species = familyPets;
+        this.species = species;
         this.nickname = nickname;
     }
 

@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,13 +168,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00047" summary="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array">
-      <created>1661091277977</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1661091277977</updated>
     </task>
     <task id="LOCAL-00048" summary="enum field added&#10;finalize() method overriden&#10;enum added to 2 dimensional array">
       <created>1661155239066</created>
@@ -513,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664724977764</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="initial commit">
+      <created>1664873179125</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1664873179127</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
