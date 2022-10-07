@@ -15,7 +15,6 @@ class FamilyTest {
     Set<Pet> pets;
     Map<String, String> schedule;
 
-
     @BeforeEach
     public void setUp() {
         this.children = new ArrayList<>();
@@ -24,8 +23,6 @@ class FamilyTest {
         this.schedule = null;
         this.pets = null;
         this.romero = new Family(mother, father, children);
-
-
     }
 
     @Test
@@ -42,8 +39,6 @@ class FamilyTest {
                 "pet = null";
 
         assertEquals(result, romero.toString());
-
-
     }
 
     @Test
@@ -54,7 +49,6 @@ class FamilyTest {
         romero.addChild(daughter);
         romero.deleteChild(son);
         romero.deleteChild(daughter);
-
 
         String result = "Family{ \n" +
                 "mother = Human{name = Dana, surname = Romero, year = 1980, iq = 0, schedule = null},\n" +
