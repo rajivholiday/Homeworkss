@@ -10,4 +10,9 @@ public class DomesticCat extends Pet {
     public void respond() {
         System.out.println("The Cat says: meow meow");
     }
+
+    @Override
+    public void foul() {
+        super.foul();
+    }
 }

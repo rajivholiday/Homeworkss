@@ -11,8 +11,6 @@ class FamilyTest {
     Family romero;
     Human mother;
     Human father;
-    Human son;
-    Human daughter;
     List<Human> children;
     Set<Pet> pets;
     Map<String, String> schedule;
@@ -21,15 +19,10 @@ class FamilyTest {
     @BeforeEach
     public void setUp() {
         this.children = new ArrayList<>();
-        Human mother = new Woman("Dana", "Romero", 1980);
-        Human father = new Man("Sergio", "Romero", 1976);
+        mother = new Woman("Dana", "Romero", 1980);
+        father = new Man("Sergio", "Romero", 1976);
         this.schedule = null;
         this.pets = null;
-
-        this.son = new Man("Tomas", "Romero", 2000);
-        this.daughter = new Woman("Mary", "Romero", 2002);
-        children.add(0, son);
-        children.add(1, daughter);
         this.romero = new Family(mother, father, children);
 
 
@@ -37,8 +30,8 @@ class FamilyTest {
 
     @Test
     void addChildTest() {
-        romero.deleteChild(son);
-        romero.deleteChild(daughter);
+        Human son = new Man("Tomas", "Romero", 2000);
+        Human daughter = new Woman("Mary", "Romero", 2002);
 
         romero.addChild(son);
         romero.addChild(daughter);
@@ -55,8 +48,14 @@ class FamilyTest {
 
     @Test
     void deleteChildTest1() {
+        Human son = new Man("Tomas", "Romero", 2000);
+        Human daughter = new Woman("Mary", "Romero", 2002);
+        romero.addChild(son);
+        romero.addChild(daughter);
         romero.deleteChild(son);
         romero.deleteChild(daughter);
+
+
         String result = "Family{ \n" +
                 "mother = Human{name = Dana, surname = Romero, year = 1980, iq = 0, schedule = null},\n" +
                 "father = Human{name = Sergio, surname = Romero, year = 1976, iq = 0, schedule = null},\n" +
@@ -68,7 +67,11 @@ class FamilyTest {
 
     @Test
     void deleteChildTest2() {
-        romero.deleteChild(children.get(1));
+        Human son = new Man("Tomas", "Romero", 2000);
+        Human daughter = new Woman("Mary", "Romero", 2002);
+        romero.addChild(son);
+        romero.addChild(daughter);
+        romero.deleteChild(1);
         String result = "Family{ \n" +
                 "mother = Human{name = Dana, surname = Romero, year = 1980, iq = 0, schedule = null},\n" +
                 "father = Human{name = Sergio, surname = Romero, year = 1976, iq = 0, schedule = null},\n" +
@@ -76,8 +79,6 @@ class FamilyTest {
                 "pet = null";
 
         assertEquals(result, romero.toString());
-
-
     }
 
     @Test
@@ -88,6 +89,11 @@ class FamilyTest {
 
     @Test
     void toStringTest() {
+        Human son = new Man("Tomas", "Romero", 2000);
+        Human daughter = new Woman("Mary", "Romero", 2002);
+        romero.addChild(son);
+        romero.addChild(daughter);
+
         String result = "Family{ \n" +
                 "mother = Human{name = Dana, surname = Romero, year = 1980, iq = 0, schedule = null},\n" +
                 "father = Human{name = Sergio, surname = Romero, year = 1976, iq = 0, schedule = null},\n" +

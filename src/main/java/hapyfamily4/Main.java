@@ -33,6 +33,7 @@ public class Main {
         johnson1.addChild(son);
         johnson1.addChild(daughter);
 
+
         System.out.println(johnson1.toString());
         Family johnson2 = new Family(mother, father, children, dog);
         System.out.println(johnson2);

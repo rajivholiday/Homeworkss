@@ -8,7 +8,7 @@ public class Family {
     private Human father;
     private Human[] children;
     private Pet pet;
-    private int count = 2;
+
 
     public Family(Human mother, Human father, Human[] children) {
         this.mother = mother;
@@ -59,12 +59,12 @@ public class Family {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Family family)) return false;
-        return count == family.count && mother.equals(family.mother) && father.equals(family.father) && Arrays.equals(children, family.children) && pet.equals(family.pet);
+        return Objects.equals(mother, family.mother) && Objects.equals(father, family.father) && Arrays.equals(children, family.children);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(mother, father, pet, count);
+        int result = Objects.hash(mother, father);
         result = 31 * result + Arrays.hashCode(children);
         return result;
     }
@@ -75,7 +75,7 @@ public class Family {
                 Arrays.toString(children), pet);
     }
     public int countFamily() {
-        return count + children.length;
+        return 2 + children.length;
     }
 
     public void deleteChild(int index) {

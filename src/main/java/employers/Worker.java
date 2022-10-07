@@ -1,4 +1,5 @@
 package employers;
+
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -61,6 +62,7 @@ public class Worker {
     public int hashCode() {
         return Objects.hash(firstName, lastName, salary, birthDate);
     }
+
     @Override
     public String toString() {
         return "Worker{" +

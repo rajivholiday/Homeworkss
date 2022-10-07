@@ -7,6 +7,10 @@ public class Rabbit extends Pet{
     }
     @Override
     public void respond() {
+    }
 
+    @Override
+    public void foul() {
+        super.foul();
     }
 }

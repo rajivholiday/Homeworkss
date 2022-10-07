@@ -10,9 +10,5 @@ public class Fish extends Pet {
         System.out.println("The Fish says: muah muah");
     }
 
-    @Override
-    public void foul() {
-        super.foul();
-        System.out.println();
-    }
+
 }

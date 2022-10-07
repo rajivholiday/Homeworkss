@@ -1,11 +1,6 @@
 package hapyfamily4;
 
 final class Woman extends Human {
-
-    public Woman() {
-        super();
-    }
-
     public Woman(String name, String surname, int birthYear, int iq, String[][] schedule) {
         super(name, surname, birthYear, iq, schedule);
     }
