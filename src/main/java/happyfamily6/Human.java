@@ -1,6 +1,5 @@
-package happyfamily5;
-import java.util.Arrays;
-import java.util.HashMap;
+package happyfamily6;
+
 import java.util.Map;
 import java.util.Objects;
 
@@ -11,7 +10,6 @@ public class Human {
     private int iq;
     private Map<String, String> schedule;
     private Family family;
-
 
     public Human() {
 

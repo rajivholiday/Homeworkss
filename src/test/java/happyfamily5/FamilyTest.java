@@ -77,8 +77,7 @@ class FamilyTest {
 
     @Test
     void countFamilyTest() {
-        int i = 2 + romero.getChildren().size();
-        assertEquals(i, romero.countFamily());
+        assertEquals(2, romero.countFamily());
     }
 
     @Test

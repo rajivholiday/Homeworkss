@@ -1,14 +1,18 @@
 package happyfamily6;
+
 import java.util.List;
 
-public interface FamilyDao<T> {
-    public List<T> getAll();
+public interface FamilyDao {
 
-    public T get(T t);
+    Family getFamilyByIndex(int index);
 
-    public void delete(T t);
+    List<Family> getAll();
 
-    public void add(T t);
+    public void delete(Family family);
+    public void delete(int index);
+
+    public void add(Family family);
+    public Family saveFamily(Family family);
 
 
 }

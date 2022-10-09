@@ -1,13 +1,14 @@
 package employers;
 
-import java.util.ArrayList;
+import java.sql.SQLException;
+import java.util.List;
 
 
 public interface DAO<T> {
 
     public T get(T t);
 
-    public ArrayList<T> getAll();
+    public List<T> getAll();
 
     public void delete(T t);
 
