@@ -18,8 +18,8 @@ class FamilyTest {
     @BeforeEach
     public void setUp() {
         this.children = new ArrayList<>();
-        mother = new Woman("Dana", "Romero", 1980);
-        father = new Man("Sergio", "Romero", 1976);
+        this.mother = new Woman("Dana", "Romero", 1980);
+        this.father = new Man("Sergio", "Romero", 1976);
         this.schedule = null;
         this.pets = null;
         this.romero = new Family(mother, father, children);
@@ -82,17 +82,11 @@ class FamilyTest {
 
     @Test
     void toStringTest() {
-        Human son = new Man("Tomas", "Romero", 2000);
-        Human daughter = new Woman("Mary", "Romero", 2002);
-        romero.addChild(son);
-        romero.addChild(daughter);
-
         String result = "Family{ \n" +
                 "mother = Human{name = Dana, surname = Romero, year = 1980, iq = 0, schedule = null},\n" +
                 "father = Human{name = Sergio, surname = Romero, year = 1976, iq = 0, schedule = null},\n" +
-                "children = [Human{name = Tomas, surname = Romero, year = 2000, iq = 0, schedule = null}, " + "Human{name = Mary, surname = Romero, year = 2002, iq = 0, schedule = null}],\n" +
+                "children = [],\n" +
                 "pet = null";
-
         assertEquals(result, romero.toString());
     }
 }

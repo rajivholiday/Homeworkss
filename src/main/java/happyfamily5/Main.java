@@ -37,6 +37,7 @@ public class Main {
         Human mother1 = new Woman("Mary", "Johnson", 1980, 100, schedule_M);
         Human father1 = new Man("Adam", "Johnson", 1970, 100, schedule_F);
 
+
         Human son1 = new Man("Tom", "Johnson", 2000, 90, schedule_F);
         Human daughter1 = new Woman("Alice", "Johnson", 2002, 90, schedule_M);
         Human mother2 = new Woman("Mary", "Johnson", 1980);
@@ -46,8 +47,6 @@ public class Main {
         List<Human> children2 = new ArrayList<>();
         children2.add(son2);
         children2.add(daughter2);
-
-
         Family johnson1 = new Family(mother1, father1, children1, pets);
         johnson1.addChild(son1);
         johnson1.addChild(daughter1);
