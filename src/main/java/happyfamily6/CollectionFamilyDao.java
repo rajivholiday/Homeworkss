@@ -27,20 +27,10 @@ public class CollectionFamilyDao implements FamilyDao {
         families.remove(index);
     }
 
-    @Override
-    public void add(Family family) {
-        families.add(family);
-
-    }
 
     @Override
-    public Family saveFamily(Family requestedFamily) {
-        for (Family newFamily : families) {
-            if (!newFamily.equals(requestedFamily)) {
-                families.add(requestedFamily);
-            }
-        }
-        return null;  // dersde baxariq;
+    public void save(Family requestedFamily) {
+        families.add(requestedFamily);
     }
 
 }

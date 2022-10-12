@@ -83,12 +83,12 @@ public class Human {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Human human)) return false;
-        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && schedule.equals(human.schedule) && family.equals(human.family);
+        return birthYear == human.birthYear && name.equals(human.name) && surname.equals(human.surname) && schedule.equals(human.schedule) && family.equals(human.family);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, surname, birthYear, iq, schedule, family);
+        return Objects.hash(name, surname, birthYear, schedule, family);
     }
 
     @Override

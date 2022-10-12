@@ -9,10 +9,12 @@ public interface FamilyDao {
     List<Family> getAll();
 
     public void delete(Family family);
+
     public void delete(int index);
 
-    public void add(Family family);
-    public Family saveFamily(Family family);
+
+
+    public void save (Family family);
 
 
 }

@@ -6,11 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Family.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/CollectionFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/CollectionFamilyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/happyfamily5/FamilyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/Homeworkss&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ILK_comp\Desktop\Projects\Homeworkss\src\main\java\happyfamily6" />
@@ -164,13 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00059" summary="initial commit">
-      <created>1661453151909</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1661453151909</updated>
     </task>
     <task id="LOCAL-00060" summary="initial commit">
       <created>1661487580856</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665317665272</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="initial commit">
+      <created>1665477796959</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1665477796960</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -73,12 +73,12 @@ public abstract class Pet {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Pet pet)) return false;
-        return age == pet.age && trickLevel == pet.trickLevel && species == pet.species && nickname.equals(pet.nickname) && habits.equals(pet.habits);
+        return species == pet.species && nickname.equals(pet.nickname) && habits.equals(pet.habits);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(species, nickname, age, trickLevel, habits);
+        return Objects.hash(species, nickname, habits);
     }
 
     @Override

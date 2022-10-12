@@ -72,14 +72,13 @@ public class Family {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Family family)) return false;
-        return count == family.count && mother.equals(family.mother) && father.equals(family.father) && children.equals(family.children) && pet.equals(family.pet);
+        return mother.equals(family.mother) && father.equals(family.father) && children.equals(family.children) && pet.equals(family.pet);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(mother, father, children, pet, count);
+        return Objects.hash(mother, father, children, pet);
     }
-
 
     @Override
     public String toString() {
