@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily5/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily5/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/CollectionFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/CollectionFamilyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily6/FamilyService.java" afterDir="false" />
-    </list>
+    <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00060" summary="initial commit">
-      <created>1661487580856</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1661487580857</updated>
     </task>
     <task id="LOCAL-00061" summary="initial commit">
       <created>1661488907643</created>
@@ -509,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665477796960</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="initial commit">
+      <created>1665602579242</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602579243</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
