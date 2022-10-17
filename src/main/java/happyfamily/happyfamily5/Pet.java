@@ -32,8 +32,8 @@ public abstract class Pet {
         return species;
     }
 
-    public void setFamilyPets(Species familyPets) {
-        this.species = familyPets;
+    public void setFamilyPets(Species species) {
+        this.species = species;
     }
 
     public String getNickname() {
