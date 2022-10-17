@@ -81,14 +81,12 @@ public class Human {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Human human)) return false;
-        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && Arrays.equals(schedule, human.schedule) && family.equals(human.family);
+        return birthYear == human.birthYear && name.equals(human.name) && surname.equals(human.surname) && family.equals(human.family);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(name, surname, birthYear, iq, family);
-        result = 31 * result + Arrays.hashCode(schedule);
-        return result;
+        return Objects.hash(name, surname, birthYear, family);
     }
 
     public String toString() {

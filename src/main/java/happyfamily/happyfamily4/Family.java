@@ -59,12 +59,12 @@ public class Family {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Family family)) return false;
-        return Objects.equals(mother, family.mother) && Objects.equals(father, family.father) && Arrays.equals(children, family.children);
+        return mother.equals(family.mother) && father.equals(family.father) && Arrays.equals(children, family.children) && pet.equals(family.pet);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(mother, father);
+        int result = Objects.hash(mother, father, pet);
         result = 31 * result + Arrays.hashCode(children);
         return result;
     }

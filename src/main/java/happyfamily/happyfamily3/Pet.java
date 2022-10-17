@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class Pet {
-    private Species familyPets;
+    private Species species;
     private String nickname;
     private int age;
     private int trickLevel;
@@ -13,26 +13,26 @@ public class Pet {
     public Pet() {
     }
 
-    public Pet(Species familyPets, String nickname) {
+    public Pet(Species species, String nickname) {
 
-        this.familyPets = familyPets;
+        this.species = species;
         this.nickname = nickname;
     }
 
-    public Pet(Species familyPets, String nickname, int age, int trickLevel, String[] habits) {
-        this.familyPets = familyPets;
+    public Pet(Species species, String nickname, int age, int trickLevel, String[] habits) {
+        this.species = species;
         this.nickname = nickname;
         this.age = age;
         this.trickLevel = trickLevel;
         this.habits = habits;
     }
 
-    public Species getFamilyPets() {
-        return familyPets;
+    public Species getSpecies() {
+        return species;
     }
 
-    public void setFamilyPets(Species familyPets) {
-        this.familyPets = familyPets;
+    public void setSpecies(Species species) {
+        this.species = species;
     }
 
     public String getNickname() {
@@ -71,19 +71,17 @@ public class Pet {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Pet pet)) return false;
-        return age == pet.age && trickLevel == pet.trickLevel && familyPets == pet.familyPets && nickname.equals(pet.nickname) && Arrays.equals(habits, pet.habits);
+        return age == pet.age && nickname.equals(pet.nickname);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(familyPets, nickname, age, trickLevel);
-        result = 31 * result + Arrays.hashCode(habits);
-        return result;
+        return Objects.hash(nickname, age);
     }
 
     @Override
     public String toString() {
-        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.familyPets,
+        return String.format("%s{ nickname = %s, age = %d, tricklevel = %d, habits = %s }", this.species,
                 this.nickname, this.age, this.trickLevel, Arrays.toString(habits));
 
     }
@@ -100,11 +98,5 @@ public class Pet {
     public void foul() {
 
         System.out.println("I need to cover it up");
-    }
-
-    @Override
-    protected void finalize() throws Throwable {
-        super.finalize();
-        System.out.println("Pet objects got deleted");
     }
 }

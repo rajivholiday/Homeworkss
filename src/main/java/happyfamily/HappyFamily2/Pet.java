@@ -67,14 +67,12 @@ public class Pet {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Pet pet)) return false;
-        return age == pet.age && trickLevel == pet.trickLevel && species.equals(pet.species) && nickname.equals(pet.nickname) && Arrays.equals(habits, pet.habits);
+        return age == pet.age && species.equals(pet.species) && nickname.equals(pet.nickname);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(species, nickname, age, trickLevel);
-        result = 31 * result + Arrays.hashCode(habits);
-        return result;
+        return Objects.hash(species, nickname, age);
     }
 
     @Override
