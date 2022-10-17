@@ -42,18 +42,17 @@ public class Human {
         this.pet = pet;
         this.schedule = schedule;
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Human human)) return false;
-        return birthYear == human.birthYear && iq == human.iq && name.equals(human.name) && surname.equals(human.surname) && mother.equals(human.mother) && father.equals(human.father) && pet.equals(human.pet) && Arrays.equals(schedule, human.schedule);
+        return birthYear == human.birthYear && name.equals(human.name) && surname.equals(human.surname) && mother.equals(human.mother) && father.equals(human.father);
     }
 
     @Override
     public int hashCode() {
-        int result = Objects.hash(name, surname, birthYear, iq, mother, father, pet);
-        result = 31 * result + Arrays.hashCode(schedule);
-        return result;
+        return Objects.hash(name, surname, birthYear, mother, father);
     }
 
     public String toString() {
