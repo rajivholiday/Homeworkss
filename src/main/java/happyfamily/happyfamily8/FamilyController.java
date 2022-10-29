@@ -1,4 +1,4 @@
-package happyfamily.happyfamily6;
+package happyfamily.happyfamily8;
 
 import java.util.List;
 import java.util.Set;
@@ -28,7 +28,7 @@ public class FamilyController {
     }
 
     public Family createNewFamily(Human mother, Human father) {
-        return service.createNewFamily(mother,father);
+        return service.createNewFamily(mother, father);
     }
 
     public void deleteFamilyByIndex(int index) {
@@ -40,9 +40,9 @@ public class FamilyController {
         service.adoptChild(family, adoptedChild);
     }
 
-    public void deleteAllChildrenOlderThan(int givenAge) {
-        service.deleteAllChildrenOlderThan(givenAge);
-    }
+//    public void deleteAllChildrenOlderThan(int givenAge) {
+//        service.deleteAllChildrenOlderThan(givenAge);
+//    }
 
 
     public int count() {

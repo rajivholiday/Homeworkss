@@ -10,11 +10,11 @@ public class FileTraining {
 
 
         while (true) {
-            System.out.println(" Hello, welcome to app!");
             System.out.println("""
+                    Hello, welcome to app!
                     1. Create a file
                     2. Write to a file
-                    3. Read from file 
+                    3. Read from file
                     4. Delete a file""");
             int option = scanner.nextInt();
             switch (option) {
@@ -44,7 +44,8 @@ public class FileTraining {
                         if (obj.exists()) {
                             System.out.println("File exists.");
                             System.out.println("Input a message:");
-                            String input = scanner.nextLine();
+                            scanner.nextLine();
+                            String input = scanner.next();
                             writer.write(input);
                             System.out.println("Message was written in file!");
                         } else {
@@ -66,10 +67,12 @@ public class FileTraining {
                             Scanner myScanner = new Scanner(obj2);
                             String data = "";
                             while (myScanner.hasNextLine()) {
-                                data = scanner.nextLine();
+                                data = myScanner.nextLine();
+                                System.out.println("Your message: " + data);
+                                myScanner.close();
                             }
-                            myScanner.close();
-                            System.out.println("Your message: " + data);
+
+
                         } else {
                             System.out.println("File does not exist.");
                         }

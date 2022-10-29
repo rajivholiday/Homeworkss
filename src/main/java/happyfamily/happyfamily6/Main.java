@@ -25,25 +25,42 @@ public class Main {
         schedule_M.put(DayOfWeek.SUNDAY.name(), "Walking");
 
 
+        Pet dog = new Dog("Rex", 2, 20, habits);
+        Pet cat = new Robocat("Graf", 2, 20, habits);
+
         FamilyController controller = new FamilyController();
-        Human father = new Man("Marco", "Moretti", 1975);
-        Human mother = new Woman("Beatrice", "Moretti", 1976);
 
-        List<Human> children = new ArrayList<>();
-        List<Family> families = new ArrayList<>();
-        Human son = new Man("Luca", "Moretti", 2000);
-        Human daughter = new Woman("Sofia", "Moretti", 2002);
-        Family moretti = new Family(mother, father, children);
-        children.add(son);
-        children.add(daughter);
+        Human mother1 = new Woman("Beatrice", "Moretti", 1976);
+        Human father1 = new Man("Marco", "Moretti", 1975);
+        Human son1 = new Man("Luca", "Moretti", 2000);
+        Human daughter1 = new Woman("Sofia", "Moretti", 2002);
 
-        CollectionFamilyDao dao = new CollectionFamilyDao();
-        dao.save(moretti);
-        families.add(moretti);
+        Human mother2 = new Human("Dorothy", "Obrien", 1955);
+        Human father2 = new Human("Jack", "Obrien", 1950);
+        Human son2 = new Man("Anthony", "Obrien", 1975);
+        Human daughter2 = new Woman("Jenny", "Obrien", 1980);
+
+        Human mother3 = new Human("Ann", "Westphalen", 1970);
+        Human father3 = new Human("Edward", "Westphalen", 1970);
+        Human son3 = new Man("Bill", "Westphalen", 1995);
+        Human daughter3 = new Woman("Sarah", "Westphalen", 1998);
+        Human daughter3_1 = new Woman("Alice", "Westphalen", 2000);
+
+        FamilyService service = new FamilyService();
+
+        Family family1 = service.createNewFamily(mother1, father1);
+
+        Family family2 = service.createNewFamily(mother2, father2);
+        service.adoptChild(family2, son2);
+        service.adoptChild(family2, daughter2);
+
+        service.addPet(0, dog);
+        System.out.println(service.getFamilyById(0).toString());
 
 
-        System.out.println(dao.getAll());
-
+//        controller.displayAllFamilies();
+//        controller.deleteFamilyByIndex(0);
+//        controller.displayAllFamilies();
 
 
     }

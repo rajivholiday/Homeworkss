@@ -19,6 +19,7 @@ public class Schedule {
             day = day.toLowerCase();
 
 
+
             if (day.isEmpty()) {
                 break;
             }

@@ -1,6 +1,11 @@
-package happyfamily.happyfamily6;
+package happyfamily.happyfamily8;
 
-import java.util.*;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 public class FamilyService {
     CollectionFamilyDao myCollection = new CollectionFamilyDao();
@@ -14,33 +19,18 @@ public class FamilyService {
     }
 
     public List<Family> getFamiliesBiggerThan(int a) {
-        ArrayList<Family> arr = new ArrayList<>();
-        for (Family el : myCollection.getAll()) {
-            if (el.countFamily() > a) {
-                arr.add(el);
-            }
-        }
-        return arr;
+        return myCollection.getAll().stream().filter(el -> el.countFamily() > a).
+                collect(Collectors.toCollection(ArrayList::new));
     }
 
     public List<Family> getFamiliesLessThan(int a) {
-        ArrayList<Family> arr = new ArrayList<>();
-        for (Family el : myCollection.getAll()) {
-            if (el.countFamily() < a) {
-                arr.add(el);
-            }
-        }
+        ArrayList<Family> arr = myCollection.getAll().stream().filter(el -> el.countFamily() < a).
+                collect(Collectors.toCollection(ArrayList::new));
         return arr;
     }
 
     public int countFamiliesWithMemberNumber(int number) {
-        int count = 0;
-        for (Family el : myCollection.getAll()) {
-            if (el.countFamily() == number) {
-                count++;
-            }
-        }
-        return count;
+        return (int) myCollection.getAll().stream().filter(el -> el.countFamily() == number).count();
     }
 
     public Family createNewFamily(Human mother, Human father) {
@@ -61,16 +51,12 @@ public class FamilyService {
         return family;
     }
 
-    public void deleteAllChildrenOlderThan(int givenAge) {
-        for (Family el : myCollection.getAll()) {
-            List<Human> children = el.getChildren();
+    public void deleteAllChildrenAllThan(int givenAge) {
+        myCollection.getAll().stream().map(Family::getChildren).forEach(children -> {
             List<Human> children2 = new ArrayList<>(children);
-            for (Human kid : children2) {
-                if (kid.getBirthYear() > givenAge) {
-                    children.remove(kid);
-                }
-            }
-        }
+            long epoch = Instant.now().toEpochMilli();
+            children2.stream().filter(kid -> kid.describeAge(epoch) > givenAge).forEach(children::remove);
+        });
     }
 
     public int count() {

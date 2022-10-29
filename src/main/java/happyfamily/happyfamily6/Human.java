@@ -91,6 +91,7 @@ public class Human {
 
     @Override
     public String toString() {
+
         return String.format("Human" +
                         "{name = %s, surname = %s, year = %d, iq = %d, schedule = %s}", name, surname, birthYear, iq,
                 schedule);

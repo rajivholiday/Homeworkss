@@ -1,6 +1,10 @@
-package happyfamily.happyfamily6;
+package happyfamily.happyfamily7;
 
-import java.util.*;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class FamilyService {
     CollectionFamilyDao myCollection = new CollectionFamilyDao();
@@ -65,10 +69,12 @@ public class FamilyService {
         for (Family el : myCollection.getAll()) {
             List<Human> children = el.getChildren();
             List<Human> children2 = new ArrayList<>(children);
-            for (Human kid : children2) {
-                if (kid.getBirthYear() > givenAge) {
+            long epoch = Instant.now().toEpochMilli();
+            for (Human kid : children) {
+                if (kid.describeAge(epoch) > givenAge) {
                     children.remove(kid);
                 }
+
             }
         }
     }
