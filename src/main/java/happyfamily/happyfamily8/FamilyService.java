@@ -1,6 +1,5 @@
 package happyfamily.happyfamily8;
 
-import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -15,7 +14,7 @@ public class FamilyService {
     }
 
     public void displayAllFamilies() {
-        System.out.println(myCollection.getAll());
+        myCollection.getAll().forEach(System.out::println);
     }
 
     public List<Family> getFamiliesBiggerThan(int a) {
@@ -24,9 +23,8 @@ public class FamilyService {
     }
 
     public List<Family> getFamiliesLessThan(int a) {
-        ArrayList<Family> arr = myCollection.getAll().stream().filter(el -> el.countFamily() < a).
+        return myCollection.getAll().stream().filter(el -> el.countFamily() < a).
                 collect(Collectors.toCollection(ArrayList::new));
-        return arr;
     }
 
     public int countFamiliesWithMemberNumber(int number) {
@@ -51,11 +49,10 @@ public class FamilyService {
         return family;
     }
 
-    public void deleteAllChildrenAllThan(int givenAge) {
+    public void deleteAllChildrenOlderThan(int givenAge) {
         myCollection.getAll().stream().map(Family::getChildren).forEach(children -> {
             List<Human> children2 = new ArrayList<>(children);
-            long epoch = Instant.now().toEpochMilli();
-            children2.stream().filter(kid -> kid.describeAge(epoch) > givenAge).forEach(children::remove);
+            children.removeIf(kid -> kid.getBirthDate() > givenAge);
         });
     }
 

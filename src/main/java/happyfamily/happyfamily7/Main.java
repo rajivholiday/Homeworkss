@@ -1,6 +1,8 @@
 package happyfamily.happyfamily7;
 
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class Main {
@@ -49,8 +51,6 @@ public class Main {
         controller.adoptChild(family, kid6);
 
         System.out.println(controller.getAllFamilies());
-
-
 
     }
 

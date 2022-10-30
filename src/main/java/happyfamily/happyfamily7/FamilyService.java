@@ -69,9 +69,8 @@ public class FamilyService {
         for (Family el : myCollection.getAll()) {
             List<Human> children = el.getChildren();
             List<Human> children2 = new ArrayList<>(children);
-            long epoch = Instant.now().toEpochMilli();
             for (Human kid : children) {
-                if (kid.describeAge(epoch) > givenAge) {
+                if (kid.getBirthDate() > givenAge) {
                     children.remove(kid);
                 }
 

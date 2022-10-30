@@ -40,9 +40,9 @@ public class FamilyController {
         service.adoptChild(family, adoptedChild);
     }
 
-//    public void deleteAllChildrenOlderThan(int givenAge) {
-//        service.deleteAllChildrenOlderThan(givenAge);
-//    }
+    public void deleteAllChildrenOlderThan(int givenAge) {
+        service.deleteAllChildrenOlderThan(givenAge);
+    }
 
 
     public int count() {

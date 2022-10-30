@@ -48,13 +48,7 @@ public class Main {
         controller.adoptChild(family, kid5);
         controller.adoptChild(family, kid6);
 
-
-        System.out.println(controller.countFamiliesWithMemberNumber(8));
-        System.out.println(controller.count());
-        controller.deleteFamilyByIndex(0);
         System.out.println(controller.getAllFamilies());
-        
-
 
     }
 
