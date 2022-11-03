@@ -5,27 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/les3_11/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/main/java/new_projects/les3_11/Les311Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/main/java/new_projects/les3_11/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/main/java/new_projects/les3_11/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/main/java/new_projects/les3_11/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_11/src/test/java/new_projects/les3_11/Les311ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/Les312Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/CatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/DogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/ParrotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/entity/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/entity/Parrot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/service/CatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/service/DogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/service/ParrotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les3_12/src/test/java/new_projects/les3_12/Les312ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/FamilyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/FamilyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/CollectionFamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/CollectionFamilyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/DayOfWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/DomesticCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/DomesticCat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/FamilyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Robocat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Robocat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Species.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Species.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Woman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Woman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +49,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,6 +59,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2CbizyTC19Tjy55N99bhxltKmLA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -63,7 +82,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss/src/main/java/happyfamily/happyfamily8"
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/lessons",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -92,13 +114,26 @@
       <recent name="Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.happyfamily.happyfamily7.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="happyfamily.happyfamily6.Main" />
-      <module name="Homeworkss" />
+  <component name="RunManager" selected="Application.Les312Application">
+    <configuration name="Les311Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_projects.les3_11.Les311Application" />
+      <module name="les3_11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="happyfamily.happyfamily6.*" />
+          <option name="PATTERN" value="new_projects.les3_11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Les312Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="new_projects.les3_12.Les312Application" />
+      <module name="les3_12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="new_projects.les3_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,29 +182,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyServiceTest.addPet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily.happyfamily6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="happyfamily.happyfamily6" />
-      <option name="MAIN_CLASS_NAME" value="happyfamily.happyfamily6.FamilyServiceTest" />
-      <option name="METHOD_NAME" value="addPet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Les312Application" />
+        <item itemvalue="Application.Les311Application" />
         <item itemvalue="Application.happyfamily.happyfamily7.Main" />
         <item itemvalue="Application.happyfamily.happyfamily8.Main" />
         <item itemvalue="JUnit.FamilyServiceTest" />
-        <item itemvalue="JUnit.FamilyServiceTest.addPet" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -181,13 +200,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00068" summary="initial commit">
-      <created>1661783350084</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1661783350086</updated>
     </task>
     <task id="LOCAL-00069" summary="initial commit">
       <created>1661783496183</created>
@@ -525,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667049996385</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="initial commit">
+      <created>1667116656640</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1667116656641</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
