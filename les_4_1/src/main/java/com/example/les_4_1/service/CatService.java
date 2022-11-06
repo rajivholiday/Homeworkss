@@ -44,12 +44,10 @@ public class CatService {
 
     public Cat update(int id, String color, String name, int age) {
         Cat c = fillData(id, color, name, age);
-        for (int i = 0; i < cats.size(); i++) {
+        for (int i = 0; i < cats.size(); i++)
             if (cats.get(i).getId() == id) {
                 cats.add(i, c);
             }
-
-        }
         return c;
     }
 

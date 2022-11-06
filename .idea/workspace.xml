@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/HTMLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les3_12/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/Les41Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/controller/CatController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/controller/DogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/entity/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/entity/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/service/CatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/service/DogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les_4_1/src/test/java/com/example/les_4_1/Les41ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les3_12/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/les3_12/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/CatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/CatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/DogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/DogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/ParrotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/les3_12/src/main/java/new_projects/les3_12/controller/ParrotController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/service/CatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/les_4_1/src/main/java/com/example/les_4_1/service/CatService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/lessons",
+    "last_opened_file_path": "C:/Users/ILK_comp/Desktop/Projects/Homeworkss",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -189,13 +167,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00070" summary="initial commit">
-      <created>1661790670850</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1661790670850</updated>
     </task>
     <task id="LOCAL-00071" summary="initial commit">
       <created>1661791220430</created>
@@ -533,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667496798721</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="initial commit">
+      <created>1667738937508</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1667738937510</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
