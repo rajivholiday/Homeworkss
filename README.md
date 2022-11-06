@@ -1,2 +1,2 @@
 # Java_Core
-Repository for my java_core projects
+Repository for my java projects
