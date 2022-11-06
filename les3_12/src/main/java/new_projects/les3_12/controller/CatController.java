@@ -2,6 +2,7 @@ package new_projects.les3_12.controller;
 
 import new_projects.les3_12.entity.Cat;
 import new_projects.les3_12.service.CatService;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,23 +16,15 @@ public class CatController {
         this.service = service;
     }
 
-    @RequestMapping("/cat/cats")
+    @RequestMapping("/cat/getall")
     public List<Cat> catGetAll() {
         return service.catGetAll();
     }
 
-    @RequestMapping("/cat/1")
-    public Cat getByID1() {
-        return service.catById(5);
+    @RequestMapping("/cat/get/{c_id}")
+    public Cat getByID(@PathVariable(name = "c_id") int id) {
+        return service.catById(id);
     }
 
-    @RequestMapping("/cat/1")
-    public Cat getByID2() {
-        return service.catById(15);
-    }
 
-    @RequestMapping("/cat/1")
-    public Cat getByID3() {
-        return service.catById(25);
-    }
 }

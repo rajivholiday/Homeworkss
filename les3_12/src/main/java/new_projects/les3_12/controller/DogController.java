@@ -2,6 +2,7 @@ package new_projects.les3_12.controller;
 
 import new_projects.les3_12.entity.Dog;
 import new_projects.les3_12.service.DogService;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,23 +16,15 @@ public class DogController {
         this.service = service;
     }
 
-    @RequestMapping("/dog/alldogs")
+    @RequestMapping("/dog/getall")
     public List<Dog> dogGetAll() {
         return service.dogGetAll();
     }
 
-    @RequestMapping("/dog/1")
-    public Dog dogById1() {
-        return service.dogById(10);
+    @RequestMapping("/dog/get/{d_id}")
+    public Dog dogById(@PathVariable(name = "d_id") int id) {
+        return service.dogById(id);
     }
 
-    @RequestMapping("/dog/1")
-    public Dog dogById2() {
-        return service.dogById(20);
-    }
 
-    @RequestMapping("/dog/1")
-    public Dog dogById3() {
-        return service.dogById(30);
-    }
 }
