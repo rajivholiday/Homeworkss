@@ -6,12 +6,7 @@ public class Dog {
     private String name;
     private int age;
 
-    public Dog(int id, String color, String name, int age) {
-        this.id = id;
-        this.color = color;
-        this.name = name;
-        this.age = age;
-    }
+
 
     public int getId() {
         return id;

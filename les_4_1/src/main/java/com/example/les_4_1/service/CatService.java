@@ -16,20 +16,18 @@ public class CatService {
     }
 
     public Cat getCat(int id) {
-        for (Cat c : cats) {
+        for (Cat c : cats)
             if (c.getId() == id) {
                 return c;
             }
-        }
         return null;
     }
 
     public String delete(int id) {
-        for (Cat c : cats) {
+        for (Cat c : cats)
             if (c.getId() == id) {
                 cats.remove(c);
             }
-        }
         return "Cat was deleted";
     }
 

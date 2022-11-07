@@ -36,6 +36,7 @@ public class CatController {
     @RequestMapping("cat/update/{id}")
     public Cat update(@PathVariable int id, @RequestParam String color, @RequestParam String name, @RequestParam int age) {
         return service.update(id, color, name, age);
+
     }
 
 

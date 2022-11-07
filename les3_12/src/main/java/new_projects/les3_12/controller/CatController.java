@@ -25,6 +25,4 @@ public class CatController {
     public Cat getByID(@PathVariable(name = "c_id") int id) {
         return service.catById(id);
     }
-
-
 }
