@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("/dog")
 public class DogController {
     private final DogService service;
 
@@ -16,12 +17,12 @@ public class DogController {
         this.service = service;
     }
 
-    @RequestMapping("/dog/getall")
+    @RequestMapping("/getall")
     public List<Dog> dogGetAll() {
         return service.dogGetAll();
     }
 
-    @RequestMapping("/dog/get/{d_id}")
+    @RequestMapping("/get/{d_id}")
     public Dog dogById(@PathVariable(name = "d_id") int id) {
         return service.dogById(id);
     }

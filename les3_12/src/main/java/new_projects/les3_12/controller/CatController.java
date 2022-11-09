@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("/cat")
 public class CatController {
     private final CatService service;
 
@@ -16,12 +17,12 @@ public class CatController {
         this.service = service;
     }
 
-    @RequestMapping("/cat/getall")
+    @RequestMapping("/getall")
     public List<Cat> catGetAll() {
         return service.catGetAll();
     }
 
-    @RequestMapping("/cat/get/{c_id}")
+    @RequestMapping("/get/{c_id}")
     public Cat getByID(@PathVariable(name = "c_id") int id) {
         return service.catById(id);
     }

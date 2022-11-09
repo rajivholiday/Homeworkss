@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("/parrot")
 public class ParrotController {
     private final ParrotService service;
 
@@ -17,12 +18,12 @@ public class ParrotController {
         this.service = service;
     }
 
-    @RequestMapping("/parrot/getall")
+    @RequestMapping("/getall")
     public List<Parrot> parrotGetAll() {
         return service.parrotGetAll();
     }
 
-    @RequestMapping("/parrot/get/{p_id}")
+    @RequestMapping("/get/{p_id}")
     public Parrot getById(@PathVariable(name = "p_id") int id) {
         return service.parrotById(id);
     }

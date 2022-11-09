@@ -11,9 +11,15 @@ public class ParrotService {
 
     public List<Parrot> parrotGetAll() {
         List<Parrot> parrots = new ArrayList<>();
-        Parrot p1 = new Parrot("Henry", 1);
-        Parrot p2 = new Parrot("Dakota", 2);
-        Parrot p3 = new Parrot("Lola", 3);
+        Parrot p1 = new Parrot();
+        p1.setId(1);
+        p1.setName("Henry");
+        Parrot p2 = new Parrot();
+        p2.setId(2);
+        p2.setName("Dakota");
+        Parrot p3 = new Parrot();
+        p3.setId(3);
+        p3.setName("Lola");
         parrots.add(p1);
         parrots.add(p2);
         parrots.add(p3);

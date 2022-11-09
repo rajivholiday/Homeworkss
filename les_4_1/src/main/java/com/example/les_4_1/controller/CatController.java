@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/cat")
 public class CatController {
     private final CatService service;
 
@@ -16,24 +17,24 @@ public class CatController {
     }
 
 
-    @RequestMapping("/cat")
+    @RequestMapping("/")
     public Cat createCat(@RequestParam int id, @RequestParam String color,
                          @RequestParam String name, @RequestParam int age) {
         return service.create(id, color, name, age);
 
     }
 
-    @RequestMapping("cat/get/{cat_id1}")
+    @RequestMapping("/get/{cat_id1}")
     public Cat getCatById(@PathVariable(name = "cat_id1") int id) {
-        return service.getCat(id);
+        return service.get(id);
     }
 
-    @RequestMapping("cat/delete/{cat_id}")
+    @RequestMapping("/delete/{cat_id}")
     public String delete(@PathVariable(name = "cat_id") int id) {
         return service.delete(id);
     }
 
-    @RequestMapping("cat/update/{id}")
+    @RequestMapping("/update/{id}")
     public Cat update(@PathVariable int id, @RequestParam String color, @RequestParam String name, @RequestParam int age) {
         return service.update(id, color, name, age);
 

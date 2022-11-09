@@ -6,23 +6,10 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 
 @Service
-public class CatService {
+public class CatService implements DAO<Cat> {
     private ArrayList<Cat> cats = new ArrayList<>();
 
-    public Cat create(int id, String color, String name, int age) {
-        Cat c = fillData(id, color, name, age);
-        cats.add(c);
-        return c;
-    }
-
-    public Cat getCat(int id) {
-        for (Cat c : cats)
-            if (c.getId() == id) {
-                return c;
-            }
-        return null;
-    }
-
+    @Override
     public String delete(int id) {
         for (Cat c : cats)
             if (c.getId() == id) {
@@ -31,8 +18,33 @@ public class CatService {
         return "Cat was deleted";
     }
 
-    private Cat fillData(int id, String color, String name, int age) {
-        Cat c = new Cat();
+    @Override
+    public Cat get(int id) {
+        for (Cat c : cats)
+            if (c.getId() == id) {
+                return c;
+            }
+        return null;
+    }
+
+    @Override
+    public Cat create(int id, String color, String name, int age) {
+        Cat c = fillData(id, color, name, age, new Cat());
+        cats.add(c);
+        return c;
+    }
+
+    @Override
+    public Cat update(int id, String color, String name, int age) {
+        for (int i = 0; i < cats.size(); i++)
+            if (cats.get(i).getId() == id) {
+                fillData(id, color, name, age, cats.get(i));
+                return cats.get(i);
+            }
+        return null;
+    }
+
+    private Cat fillData(int id, String color, String name, int age, Cat c) {
         c.setId(id);
         c.setColor(color);
         c.setName(name);
@@ -40,13 +52,5 @@ public class CatService {
         return c;
     }
 
-    public Cat update(int id, String color, String name, int age) {
-        Cat c = fillData(id, color, name, age);
-        for (int i = 0; i < cats.size(); i++)
-            if (cats.get(i).getId() == id) {
-                cats.add(i, c);
-            }
-        return c;
-    }
 
 }

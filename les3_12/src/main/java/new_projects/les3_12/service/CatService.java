@@ -10,9 +10,15 @@ import java.util.List;
 public class CatService {
     public List<Cat> catGetAll() {
         List<Cat> cats = new ArrayList<>();
-        Cat cat1 = new Cat("Graf", 5);
-        Cat cat2 = new Cat("Kiki", 15);
-        Cat cat3 = new Cat("Tiger", 25);
+        Cat cat1 = new Cat();
+        cat1.setId(5);
+        cat1.setName("Graf");
+        Cat cat2 = new Cat();
+        cat2.setId(6);
+        cat2.setName("Kiki");
+        Cat cat3 = new Cat();
+        cat3.setId(7);
+        cat3.setName("Mimi");
         cats.add(cat1);
         cats.add(cat2);
         cats.add(cat3);
