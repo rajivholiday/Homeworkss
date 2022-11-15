@@ -1,36 +1,38 @@
 package com.example.Car.service;
 
-import com.example.Car.entity.BMW;
+import com.example.Car.entity.Volvo;
 import org.springframework.stereotype.Service;
 
+import java.awt.image.ConvolveOp;
 import java.util.ArrayList;
 
+
 @Service
-public class BMWService implements DAO<BMW> {
-    private final ArrayList<BMW> cars = new ArrayList<>();
+public class VolvoService implements DAO<Volvo> {
+    private final ArrayList<Volvo> cars = new ArrayList<>();
 
     @Override
-    public BMW create(int regNumber, String color, String engineType, long mileage) {
-        BMW car = fillCar(regNumber, color, engineType, mileage, new BMW());
+    public Volvo create(int regNumber, String color, String engineType, long mileage) {
+        Volvo car = fillCar(regNumber, color, engineType, mileage, new Volvo());
         cars.add(car);
         return car;
     }
 
     @Override
-    public BMW get(int regNumber) {
-        for (BMW car : cars)
+    public Volvo get(int regNumber) {
+        for (Volvo car : cars)
             if (car.getRegNumber() == regNumber) {
                 return car;
             }
-        return  null;
+        return null;
     }
 
     @Override
-    public BMW update(int regNumber, String color, String engineType, long mileage) {
-        for (BMW car : cars)
+    public Volvo update(int regNumber, String color, String engineType, long mileage) {
+        for (Volvo car : cars)
             if (car.getRegNumber() == regNumber) {
                 car.setColor(color);
-                car.setEngineType(engineType);
+                car.setColor(engineType);
                 car.setMileage(mileage);
                 return car;
             }
@@ -39,15 +41,15 @@ public class BMWService implements DAO<BMW> {
 
     @Override
     public String delete(int regNumber) {
-        for (BMW car : cars)
+        for (Volvo car : cars)
             if (car.getRegNumber() == regNumber) {
                 cars.remove(car);
                 break;
             }
-        return String.format("Car with number %d was deleted", regNumber);
+        return String.format("Car with number %d was deleted ", regNumber);
     }
 
-    public BMW fillCar(int regNumber, String color, String engineType, long mileage, BMW car) {
+    public Volvo fillCar(int regNumber, String color, String engineType, long mileage, Volvo car) {
         car.setRegNumber(regNumber);
         car.setColor(color);
         car.setEngineType(engineType);

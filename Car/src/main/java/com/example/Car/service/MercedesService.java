@@ -1,33 +1,34 @@
 package com.example.Car.service;
 
-import com.example.Car.entity.BMW;
+import com.example.Car.entity.Mercedes;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 
 @Service
-public class BMWService implements DAO<BMW> {
-    private final ArrayList<BMW> cars = new ArrayList<>();
+public class MercedesService implements DAO<Mercedes> {
+    private final ArrayList<Mercedes> cars = new ArrayList<>();
 
     @Override
-    public BMW create(int regNumber, String color, String engineType, long mileage) {
-        BMW car = fillCar(regNumber, color, engineType, mileage, new BMW());
+    public Mercedes create(int regNumber, String color, String engineType, long mileage) {
+        Mercedes car = fillCar(regNumber, color, engineType, mileage, new Mercedes());
         cars.add(car);
         return car;
+
     }
 
     @Override
-    public BMW get(int regNumber) {
-        for (BMW car : cars)
+    public Mercedes get(int regNumber) {
+        for (Mercedes car : cars)
             if (car.getRegNumber() == regNumber) {
                 return car;
             }
-        return  null;
+        return null;
     }
 
     @Override
-    public BMW update(int regNumber, String color, String engineType, long mileage) {
-        for (BMW car : cars)
+    public Mercedes update(int regNumber, String color, String engineType, long mileage) {
+        for (Mercedes car : cars)
             if (car.getRegNumber() == regNumber) {
                 car.setColor(color);
                 car.setEngineType(engineType);
@@ -39,7 +40,7 @@ public class BMWService implements DAO<BMW> {
 
     @Override
     public String delete(int regNumber) {
-        for (BMW car : cars)
+        for (Mercedes car : cars)
             if (car.getRegNumber() == regNumber) {
                 cars.remove(car);
                 break;
@@ -47,7 +48,7 @@ public class BMWService implements DAO<BMW> {
         return String.format("Car with number %d was deleted", regNumber);
     }
 
-    public BMW fillCar(int regNumber, String color, String engineType, long mileage, BMW car) {
+    public Mercedes fillCar(int regNumber, String color, String engineType, long mileage, Mercedes car) {
         car.setRegNumber(regNumber);
         car.setColor(color);
         car.setEngineType(engineType);
