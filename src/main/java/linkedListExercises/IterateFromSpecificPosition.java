@@ -10,5 +10,4 @@ public class IterateFromSpecificPosition {
             System.out.println(it.next());
         }
     }
-
 }
