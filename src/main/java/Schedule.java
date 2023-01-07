@@ -18,8 +18,6 @@ public class Schedule {
             String day = scanner.nextLine();
             day = day.toLowerCase();
 
-
-
             if (day.isEmpty()) {
                 break;
             }
@@ -40,7 +38,6 @@ public class Schedule {
                     break;
                 case "thursday":
                     System.out.printf("Your task for %s: %s\n", schedule[4][0], schedule[4][1]);
-                    ;
                     break;
                 case "friday":
                     System.out.printf("Your task for %s: %s\n", schedule[5][0], schedule[5][1]);
