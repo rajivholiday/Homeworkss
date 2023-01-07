@@ -16,7 +16,7 @@ public class CheckExecutingTimes {
         System.out.println(differenceInNanos);
     }
 
-    public static void printArrWithWhileLoop(ArrayList<String> names2) {
+    public static void printArrWithIterator(ArrayList<String> names2) {
         LocalTime startTime = LocalTime.now();
         Iterator<String> it = names2.iterator();
         while ((it.hasNext())) {
@@ -29,7 +29,7 @@ public class CheckExecutingTimes {
         System.out.println(differenceInNanos);
     }
 
-    public static void printArrWithIterator(ArrayList<String> names3) {
+    public static void printArrWithWhileLoop(ArrayList<String> names3) {
         LocalTime startTime = LocalTime.now();
         int i = 0;
         while (names3.size() > i) {

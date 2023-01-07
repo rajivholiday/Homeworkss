@@ -14,8 +14,7 @@ public class ArrAverage {
     public static void main(String[] args) {
         int[] arr = {2, 4, 6, 8};
         System.out.println(average(arr));
-
-
+        System.out.println(average((new int[]{1, 2, 3})));
     }
 }
 

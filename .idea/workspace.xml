@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Car/src/main/java/com/example/Car/controller/BMWController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Car/src/main/java/com/example/Car/controller/BMWController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckExecutingTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckExecutingTimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/ArrAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/ArrAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/ContainsArrElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/ContainsArrElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/SpringBoot&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ILK_comp/Desktop/Projects/Java_Core&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -83,7 +87,27 @@
       <recent name="Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CarApplication">
+  <component name="RunManager" selected="Application.CheckExecutingTimes">
+    <configuration name="ArrAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.ArrAverage" />
+      <module name="Java_Core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySum" />
+      <module name="Java_Core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.Car.CarApplication" />
       <module name="Car" />
@@ -97,51 +121,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Les311Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_projects.les3_11.Les311Application" />
-      <module name="les3_11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="new_projects.les3_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="CheckExecutingTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckExecutingTimes" />
+      <module name="Java_Core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Les312Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="new_projects.les3_12.Les312Application" />
-      <module name="les3_12" />
+    <configuration name="ContainsArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson9.ContainsArrElement" />
+      <module name="Java_Core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="new_projects.les3_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Les41Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.les_4_1.Les41Application" />
-      <module name="les_4_1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.les_4_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="happyfamily.happyfamily7.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="happyfamily.happyfamily7.Main" />
-      <module name="Homeworkss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyfamily.happyfamily7.*" />
+          <option name="PATTERN" value="lesson9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckExecutingTimes" />
+        <item itemvalue="Application.ArraySum" />
+        <item itemvalue="Application.ContainsArrElement" />
+        <item itemvalue="Application.ArrAverage" />
         <item itemvalue="Application.CarApplication" />
-        <item itemvalue="Application.Les41Application" />
-        <item itemvalue="Application.Les312Application" />
-        <item itemvalue="Application.Les311Application" />
-        <item itemvalue="Application.happyfamily.happyfamily7.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,13 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00078" summary="initial commit">
-      <created>1663658626160</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1663658626160</updated>
     </task>
     <task id="LOCAL-00079" summary="initial commit">
       <created>1663697603008</created>
@@ -511,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668519451572</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="initial commit">
+      <created>1668844045714</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1668844045715</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
