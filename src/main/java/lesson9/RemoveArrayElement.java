@@ -15,10 +15,7 @@ public class RemoveArrayElement {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int target1 = 5; // int target1 = 15; olduqda exception verir
-        // String  new_arr = Arrays.toString(removeElement(arr,target1));
-        //System.out.println(new_arr);
+        int target1 = 5;
         System.out.println(Arrays.toString(removeElement(arr, target1)));
-
     }
 }
