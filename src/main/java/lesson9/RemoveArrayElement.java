@@ -15,7 +15,6 @@ public class RemoveArrayElement {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int target1 = 5;
-        System.out.println(Arrays.toString(removeElement(arr, target1)));
+        System.out.println(Arrays.toString(removeElement(arr, 1)));
     }
 }
