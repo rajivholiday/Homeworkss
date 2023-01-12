@@ -20,14 +20,12 @@ public class CollectionFamilyDao implements FamilyDao {
     @Override
     public void delete(Family family) {
         families.remove(family);
-
     }
 
     @Override
     public void delete(int index) {
         families.remove(index);
     }
-
 
     @Override
     public void save(Family requestedFamily) {
