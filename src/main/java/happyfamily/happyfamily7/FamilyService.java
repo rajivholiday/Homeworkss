@@ -73,7 +73,6 @@ public class FamilyService {
                 if (kid.getBirthDate() > givenAge) {
                     children.remove(kid);
                 }
-
             }
         }
     }
