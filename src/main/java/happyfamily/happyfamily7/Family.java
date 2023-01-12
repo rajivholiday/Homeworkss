@@ -11,13 +11,10 @@ public class Family {
     private List<Human> children;
     private Set<Pet> pet;
 
-
-
     public Family(Human mother, Human father, List<Human> children) {
         this.mother = mother;
         this.father = father;
         this.children = children;
-
     }
 
     public Family(Human mother, Human father, List<Human> children, Set<Pet> pet) {
@@ -58,7 +55,6 @@ public class Family {
     public void setPet(Set<Pet> pet) {
         this.pet = pet;
     }
-
 
     @Override
     public boolean equals(Object o) {
