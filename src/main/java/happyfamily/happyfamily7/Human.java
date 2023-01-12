@@ -67,7 +67,6 @@ public class Human {
 
     public long getBirthDate() {
         return describeAge(this.birthDate);
-
     }
 
     public void setBirthYear(long birthDate) {
@@ -104,7 +103,6 @@ public class Human {
         if (!(o instanceof Human human)) return false;
         return birthDate == human.birthDate && name.equals(human.name) && surname.equals(human.surname) && family.equals(human.family);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(name, surname, birthDate, family);
@@ -131,7 +129,5 @@ public class Human {
         days = days % 30;
 
         return year;
-
-
     }
 }
