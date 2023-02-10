@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74ba461b-8257-493b-89c9-7527ff3a4967" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily7/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/happyfamily/happyfamily8/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -85,9 +86,16 @@
       <recent name="Lesson8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Person1">
+  <component name="RunManager" selected="Application.CaseTraining">
     <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraySum" />
+      <module name="Java_Core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaseTraining" />
       <module name="Java_Core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,19 +104,6 @@
     <configuration name="CheckExecutingTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckExecutingTimes" />
       <module name="Java_Core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsArrElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9.ContainsArrElement" />
-      <module name="Java_Core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CaseTraining" />
         <item itemvalue="Application.Person1" />
         <item itemvalue="Application.RemoveArrayElement" />
         <item itemvalue="Application.CheckExecutingTimes" />
         <item itemvalue="Application.ArraySum" />
-        <item itemvalue="Application.ContainsArrElement" />
       </list>
     </recent_temporary>
   </component>
@@ -151,34 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659077960485</updated>
-    </task>
-    <task id="LOCAL-00092" summary="initial commit">
-      <created>1664355893237</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1664355893237</updated>
-    </task>
-    <task id="LOCAL-00093" summary="initial commit">
-      <created>1664561221478</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1664561221479</updated>
-    </task>
-    <task id="LOCAL-00094" summary="initial commit">
-      <created>1664564517374</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1664564517374</updated>
-    </task>
-    <task id="LOCAL-00095" summary="initial commit">
-      <created>1664724977763</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1664724977764</updated>
     </task>
     <task id="LOCAL-00096" summary="initial commit">
       <created>1664873179125</created>
@@ -495,7 +462,35 @@
       <option name="project" value="LOCAL" />
       <updated>1673075590026</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="initial commit">
+      <created>1673539461769</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1673539461770</updated>
+    </task>
+    <task id="LOCAL-00142" summary="initial commit">
+      <created>1673539523005</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1673539523005</updated>
+    </task>
+    <task id="LOCAL-00143" summary="initial commit">
+      <created>1673539620523</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1673539620523</updated>
+    </task>
+    <task id="LOCAL-00144" summary="initial commit">
+      <created>1673539699079</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1673539699080</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

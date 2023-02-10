@@ -28,11 +28,11 @@ public abstract class Pet {
     }
 
 
-    public Species getFamilyPets() {
+    public Species getSpecies() {
         return species;
     }
 
-    public void setFamilyPets(Species species) {
+    public void setSpecies(Species species) {
         this.species = species;
     }
 
