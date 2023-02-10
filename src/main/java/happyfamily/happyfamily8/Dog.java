@@ -6,7 +6,7 @@ public class Dog extends Pet {
 
     public Dog(String nickname, int age, int trickLevel, Set<String> habits) {
         super(nickname, age, trickLevel, habits);
-        super.setFamilyPets(Species.DOG);
+        super.setSpecies(Species.DOG);
     }
 
     @Override
